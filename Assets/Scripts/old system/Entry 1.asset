@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a771ac27402f3b94e8caa08794099d8b, type: 3}
+  m_Name: Entry 1
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  entryID: 1
+  bodyText: As you enter the forrest you hear an owl in the distance.
+  responseArray:
+  - Look for the owl
+  - Leave the forrest
+  nextEntryArray:
+  - {fileID: 11400000, guid: 6fa60e230aeff464e876728cf5a41353, type: 2}
+  - {fileID: 11400000, guid: 18b2a040c36aab94097fc37fd1870453, type: 2}
+  hasEffectOnLoad: 0
+  effectType: 0
+  hasSkillCheck: 1
+  skillCheck: 0
+  skillLevelRequired: 5
+  FailedEntry: {fileID: 11400000, guid: 23458ce4f87be0847ac0d1bcc8aca452, type: 2}
