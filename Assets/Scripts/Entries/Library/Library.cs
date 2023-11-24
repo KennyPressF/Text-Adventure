@@ -40,7 +40,7 @@ public class Library : MonoBehaviour
         public string lastName;
     }
 
-    void Start()
+    public void PopulateLibrary()
     {
         foreach (Transform t in toNewRoadsCollection)
         {

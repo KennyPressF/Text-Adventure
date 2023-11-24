@@ -991,7 +991,7 @@ GameObject:
   - component: {fileID: 580404244}
   - component: {fileID: 580404245}
   m_Layer: 0
-  m_Name: E2
+  m_Name: E1099
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1024,8 +1024,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72010697bde4a7b46bbf2d6f7862abcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  entryID: 2
-  bodyText: This is the SECOND entry
+  entryID: 1099
+  bodyText1: The bandit raises his mace and swings it at your head from the right.
+    You block the blow easily, but it was a ruse, and his hook bites into your side
+    from the left.
+  bodyText2: Trapping his hook-arm against your body, you hurl the bandit off balance
+    despite your pain. A quick blow from your weapon sends him screaming to the ground,
+    and you move on.
 --- !u!1 &613208571
 GameObject:
   m_ObjectHideFlags: 0
@@ -1130,8 +1135,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 28
+  m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1297,6 +1302,104 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!1 &839630718
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 839630719}
+  - component: {fileID: 839630720}
+  m_Layer: 0
+  m_Name: E1340
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &839630719
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839630718}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &839630720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839630718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a99e6beb3e207845945d6a04ab91ef2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 1340
+  bodyText1: As you speak with your traveling companions, small trees begin to dot
+    the terrain around you. Tall grass gives way to brush, and you soon find yourself
+    at the edge of the forest.
+  bodyText2: As you walk, you take the chance to become better acquainted with your
+    fellow travelers.
+--- !u!1 &859057507
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 859057508}
+  - component: {fileID: 859057509}
+  m_Layer: 0
+  m_Name: E1513
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &859057508
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859057507}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &859057509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859057507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc3fc477d6648154190e6194b45408d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 1513
+  bodyText1: You steel yourself and wait until the last moment before the spearpoint
+    would impact your chest. In an instant, you fall back a step and grab the spear's
+    neck.
 --- !u!1 &972604329
 GameObject:
   m_ObjectHideFlags: 0
@@ -1575,7 +1678,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1145410908}
   - component: {fileID: 1145410907}
-  - component: {fileID: 1145410909}
+  - component: {fileID: 1145410910}
   m_Layer: 0
   m_Name: StoryManager
   m_TagString: Untagged
@@ -1599,6 +1702,8 @@ MonoBehaviour:
   mainText: {fileID: 613208573}
   buttonGroup: {fileID: 766163605}
   buttonArray: []
+  player: {fileID: 0}
+  spManager: {fileID: 0}
 --- !u!4 &1145410908
 Transform:
   m_ObjectHideFlags: 0
@@ -1614,7 +1719,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1145410909
+--- !u!114 &1145410910
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1623,7 +1728,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1145410906}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c92a14a9d99e094e806820a1fbd543a, type: 3}
+  m_Script: {fileID: 11500000, guid: 32132f3b23686dc498ee96513ed32943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1234671221
@@ -1740,7 +1845,7 @@ GameObject:
   - component: {fileID: 1290138921}
   - component: {fileID: 1290138922}
   m_Layer: 0
-  m_Name: E4
+  m_Name: E1253
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1773,8 +1878,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d814b33d74856a047983503f6b7933a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  entryID: 4
-  bodyText: This is the FOURTH entry
+  entryID: 1253
+  bodyText1: Without skipping a beat, you seize an opportunity. You flourish the
+    captured arrow and shoot the bandit a fiendish grin. A look of terror overcomes
+    the orc's face. When you wind up as if you are about to throw the arrow back
+    at the bandit, she panics, dropping her bow to the ground and fleeing into the
+    forest.
 --- !u!1 &1539031369
 GameObject:
   m_ObjectHideFlags: 0
@@ -1920,7 +2029,7 @@ GameObject:
   - component: {fileID: 1593989565}
   - component: {fileID: 1593989566}
   m_Layer: 0
-  m_Name: E1
+  m_Name: E1096
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1953,8 +2062,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a624d12fc55eff04e8908f0260439825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  entryID: 1
-  bodyText: This is the FIRST entry
+  entryID: 1096
+  bodyText1: 'Mariam lets out a long yawn, and you second the motion. As you nestle
+    into your bedroll for the night, Braxton speaks up.
+
+
+    "Best we don''t all
+    sleep at once. I''ll take first watch. Can I count on you to take the second?"
+
+
+    You
+    nod your head in agreement and drift off to sleep.'
+  bodyText2: 'You rouse from your slumber to a gentle coaxing from Braxton.
+
+
+    "Your
+    turn at watch." she says quietly. You rub your eyes for a moment and sit up,
+    taking a drink from your canteen to wake yourself.
+
+
+    You glance around camp
+    at your fellow travelers. Braxton prepares her bedroll, lies down, and is quickly
+    asleep. Mariam stirs for a moment, possibly awakened by the brief commotion,
+    and rolls to her other side. A gentle silence takes hold of the clearing.
+
+
+    Your
+    journey to Dragonholt has been a long one, but now you are no more than a half
+    day''s travel from your destination. The crack of burning branches from the campfire
+    keeps you company as you keep watch. The moon is beginning to set, and you know
+    the light of a new dawn will soon grace the forrest clearing where you have made
+    camp.
+
+
+    Just then, your hear a rustling in the thick brush on one side of
+    the camp and recall Braxton''s warnings about bandits.'
 --- !u!1 &1671682171
 GameObject:
   m_ObjectHideFlags: 0
@@ -1997,7 +2139,7 @@ GameObject:
   - component: {fileID: 1675912865}
   - component: {fileID: 1675912866}
   m_Layer: 0
-  m_Name: E3
+  m_Name: E1103
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2030,8 +2172,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 950551bd48af8af4fa8d02acfc583605, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  entryID: 3
-  bodyText: This is the THIRD entry
+  entryID: 1103
+  bodyText1: You see that one orc bandit is moving toward the great oak tree in the
+    center of the clearing while nocking an arrow. You duck around the oak from the
+    other direction and soon find yourself behind the bandit.
+  bodyText2: The orc raises her bow and draws one arm back until the fletching on
+    her arrow is brushing her cheek. You step up behind her and bring a rock down
+    on the back of her head, watching her boneless form slump back against the great
+    oak's trunk.
 --- !u!1 &1690582615
 GameObject:
   m_ObjectHideFlags: 0
@@ -2554,6 +2702,8 @@ Transform:
   - {fileID: 580404244}
   - {fileID: 1675912865}
   - {fileID: 1290138921}
+  - {fileID: 839630719}
+  - {fileID: 859057508}
   m_Father: {fileID: 689001686}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807

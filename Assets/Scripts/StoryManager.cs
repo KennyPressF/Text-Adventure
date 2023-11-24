@@ -11,30 +11,36 @@ public class StoryManager : MonoBehaviour
 {
     [SerializeField] Entry currentEntry;
 
-    [SerializeField] TextMeshProUGUI mainText;
+    public TextMeshProUGUI mainText;
 
     [SerializeField] GameObject buttonGroup;
-    [SerializeField] Button[] buttonArray;
+    public Button[] buttonArray;
 
-    Player player;
+    public Player player;
     Library mainLibrary;
     Library.LibraryDict library;
-    //SkillChecker checker;
+    public StoryPointManager spManager;
 
     private void Awake()
     {
         player = FindObjectOfType<Player>();
         mainLibrary = FindObjectOfType<Library>();
-        library = mainLibrary.LibDict_ToNewRoads;
-        //checker = GetComponent<SkillChecker>();
+        spManager = GetComponent<StoryPointManager>();
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        mainText.text = "";
         InitialiseButtonArray();
-        LoadEntry(1);
+
+        library = mainLibrary.LibDict_ToNewRoads;
+        mainLibrary.PopulateLibrary();
+
+        spManager.InitializeStoryPoints();
+
+        mainText.text = "";
+
+        LoadEntry(1513);
     }
 
     private void InitialiseButtonArray()
@@ -50,55 +56,134 @@ public class StoryManager : MonoBehaviour
 
     private void LoadEntry(int idToLoad)
     {
-        currentEntry = library[idToLoad];
-        UpdateMainText();
-        UpdateButtons();
-    }
-
-    private void UpdateMainText()
-    {
-        mainText.text += currentEntry.BodyText + "\n";
-    }
-
-    private void UpdateButtons()
-    {
         foreach (Button button in buttonArray)
         {
             button.onClick.RemoveAllListeners();
             button.gameObject.SetActive(false);
         }
 
-        if(currentEntry.LinkedChoices == null) { return; }
+        currentEntry = library[idToLoad];
 
-        for (int i = 0; i < currentEntry.LinkedChoices.Count; i++)
+        currentEntry.OnEntryLoad(this);
+        //UpdateButtons();
+    }
+
+    public void UpdateMainText(string text)
+    {
+        mainText.text += text + "\n";
+    }
+
+    public void UpdateTime(int timePassed)
+    {
+        string timeAsWord = NumberToWordConverter.ConvertToWord(timePassed);
+        mainText.text += $"~ {timeAsWord} time passes.\n";
+        //TODO: Update the in game time
+    }
+
+    public void UpdateStamina(int staminaChange, bool staminaGained)
+    {
+        string staminaAsWord = NumberToWordConverter.ConvertToWord(staminaChange);
+
+        if (staminaGained)
+        {
+            mainText.text += $"~ You recovered {staminaAsWord} stamina.\n";
+            //TODO: Update player stamina
+        }
+        else
+        {
+            mainText.text += $"~ You lose {staminaAsWord} stamina.\n";
+            //TODO: Update player stamina
+        }
+    }
+
+    public void UpdateButtons(List<PlayerChoice> availableChoices)
+    {
+        for (int i = 0; i < availableChoices.Count; i++)
         {
             buttonArray[i].gameObject.SetActive(true);
 
             //Set the text for each button, including required skill if there is one
             var buttonText = buttonArray[i].gameObject.GetComponentInChildren<TextMeshProUGUI>();
-            buttonText.text = currentEntry.LinkedChoices[i].Text;
-            if (currentEntry.LinkedChoices[i].SkillToCheck != null)
+            buttonText.text = availableChoices[i].Text;
+            if (availableChoices[i].SkillsToCheck != null)
             {
-                buttonText.text += " (Req:" + currentEntry.LinkedChoices[i].SkillToCheck + ")";
+                buttonText.text += "\n(Req: ";
+                for (int s = 0; s < availableChoices[i].SkillsToCheck.Length; s++)
+                {
+                    if(s != 0) { buttonText.text += " or "; }
+                    buttonText.text += availableChoices[i].SkillsToCheck[s];
+                }
+                buttonText.text += ")";
+
+                //Check all the reuired skills and set the button to enabled if the player has at least one of them
+                if (availableChoices[i].SkillsToCheck.Length > 0)
+                {
+                    foreach (var skill in availableChoices[i].SkillsToCheck)
+                    {
+                        if (player.SkillInPlayerArray(skill))
+                        {
+                            buttonArray[i].interactable = true;
+                            break;
+                        }
+                        else
+                        {
+                            buttonArray[i].interactable = false;
+                        }
+                    }
+                }
             }
 
-            //Add OnClick event to buttons
+            //Add OnClick events to buttons
             int currentIndex = i; //A seperate local var is needed for adding the OnClick event because of how Unity handles closures.
-            buttonArray[i].onClick.AddListener(delegate { LoadEntry(currentEntry.LinkedChoices[currentIndex].LinkedEntryID); });
 
-            //If there is a skill to check
-            if (currentEntry.LinkedChoices[i].SkillToCheck != null)
+            if (availableChoices[i].SPToMark != null) //Does the choice need to mark a story point?
             {
-                //If the skill is in the players list of skills
-                if(player.SkillInPlayerArray(currentEntry.LinkedChoices[i].SkillToCheck))
-                {
-                    buttonArray[i].interactable = true;
-                }
-                else
-                {
-                    buttonArray[i].interactable = false;
-                }
+                buttonArray[i].onClick.AddListener(delegate { spManager.MarkStoryPoint(availableChoices[currentIndex].SPToMark); });
             }
+
+            buttonArray[i].onClick.AddListener(delegate { LoadEntry(availableChoices[currentIndex].LinkedEntryID); });
         }
     }
+
+    //private void UpdateButtons()
+    //{
+    //    foreach (Button button in buttonArray)
+    //    {
+    //        button.onClick.RemoveAllListeners();
+    //        button.gameObject.SetActive(false);
+    //    }
+
+    //    if(currentEntry.LinkedChoices == null) { return; }
+
+    //    for (int i = 0; i < currentEntry.LinkedChoices.Count; i++)
+    //    {
+    //        buttonArray[i].gameObject.SetActive(true);
+
+    //        //Set the text for each button, including required skill if there is one
+    //        var buttonText = buttonArray[i].gameObject.GetComponentInChildren<TextMeshProUGUI>();
+    //        buttonText.text = currentEntry.LinkedChoices[i].Text;
+    //        if (currentEntry.LinkedChoices[i].SkillToCheck != null)
+    //        {
+    //            buttonText.text += " (Req:" + currentEntry.LinkedChoices[i].SkillToCheck + ")";
+    //        }
+
+    //        //Add OnClick event to buttons
+    //        int currentIndex = i; //A seperate local var is needed for adding the OnClick event because of how Unity handles closures.
+    //        buttonArray[i].onClick.AddListener(delegate { LoadEntry(currentEntry.LinkedChoices[currentIndex].LinkedEntryID); });
+
+    //        //If there is a skill to check
+    //        if (currentEntry.LinkedChoices[i].SkillToCheck != null)
+    //        {
+    //            //If the skill is in the players list of skills
+    //            if(player.SkillInPlayerArray(currentEntry.LinkedChoices[i].SkillToCheck))
+    //            {
+    //                buttonArray[i].interactable = true;
+    //            }
+    //            else
+    //            {
+    //                buttonArray[i].interactable = false;
+    //            }
+    //        }
+    //    }
+    //}
 }
