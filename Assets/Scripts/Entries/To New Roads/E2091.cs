@@ -2,15 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class E1654 : Entry
+public class E2091 : Entry
 {
     [SerializeField] int entryID;
 
     [TextArea(3, 20)]
     [SerializeField] string bodyText1;
-
-    [TextArea(3, 20)]
-    [SerializeField] string bodyText2;
 
     List<PlayerChoice> choices;
 
@@ -22,8 +19,6 @@ public class E1654 : Entry
     public override void OnEntryLoad(StoryManager sm)
     {
         sm.UpdateMainText(bodyText1);
-        sm.spManager.MarkStoryPoint("X1");
-        sm.UpdateMainText(bodyText2);
 
         PopulateChoices(sm);
         sm.UpdateButtons(choices);
@@ -33,13 +28,7 @@ public class E1654 : Entry
     {
         choices = new List<PlayerChoice>();
 
-        PlayerChoice c1 = new PlayerChoice(9943, "Shout a warning to your traveling companions.");
+        PlayerChoice c1 = new PlayerChoice(2399, "Continue...");
         choices.Add(c1);
-
-        PlayerChoice c2 = new PlayerChoice(7686, "Draw your weapon and engage the bandits.");
-        choices.Add(c2);
-
-        PlayerChoice c3 = new PlayerChoice(8408, "Sneak up on the bandits and ambush them.", new Skill[] { Skill.Stealth });
-        choices.Add(c3);
     }
 }

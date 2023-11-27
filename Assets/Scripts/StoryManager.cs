@@ -36,14 +36,14 @@ public class StoryManager : MonoBehaviour
         InitialiseButtonArray();
 
         library = mainLibrary.LibDict_ToNewRoads;
-        mainLibrary.PopulateLibrary();
+        mainLibrary.PopulateLibrary(AdventureBook.ToNewRoads);
 
         spManager.InitializeStoryPoints();
         timeKeeper.SetNewTimeSheet();
 
         mainText.text = "";
 
-        LoadEntry(1654);
+        LoadEntry(2004);
     }
 
     private void InitialiseButtonArray()

@@ -40,12 +40,24 @@ public class Library : MonoBehaviour
         public string lastName;
     }
 
-    public void PopulateLibrary()
+    public void PopulateLibrary(AdventureBook adventureBook)
     {
-        foreach (Transform t in toNewRoadsCollection)
+        switch (adventureBook)
         {
-            var e = t.GetComponent<Entry>();
-            LibDict_ToNewRoads.Add(e.EntryID, e);
+            case AdventureBook.ToNewRoads:
+
+                foreach (Transform t in toNewRoadsCollection)
+                {
+                    var e = t.GetComponent<Entry>();
+                    LibDict_ToNewRoads.Add(e.EntryID, e);
+                }
+                break;
+
+            default:
+                Debug.LogWarning("Unable to populate library - adventure book switch statement default.");
+                break;
         }
+
+
     }
 }
