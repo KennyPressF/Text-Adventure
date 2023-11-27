@@ -1,9 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 
-public class E1096 : Entry
+public class E1654 : Entry
 {
     [SerializeField] int entryID;
 
@@ -23,8 +22,7 @@ public class E1096 : Entry
     public override void OnEntryLoad(StoryManager sm)
     {
         sm.UpdateMainText(bodyText1);
-        sm.UpdateTime(2);
-        sm.UpdateStamina(2, true);
+        sm.spManager.MarkStoryPoint("X1");
         sm.UpdateMainText(bodyText2);
 
         PopulateChoices(sm);
@@ -35,13 +33,14 @@ public class E1096 : Entry
     {
         choices = new List<PlayerChoice>();
 
-        PlayerChoice c1 = new PlayerChoice(3123, "Watch for further movement or signs of danger.");
+        PlayerChoice c1 = new PlayerChoice(9943, "Shout a warning to your traveling companions.");
         choices.Add(c1);
 
-        PlayerChoice c2 = new PlayerChoice(1654, "Arm yourself and take a closer look.");
+        PlayerChoice c2 = new PlayerChoice(7686, "Draw your weapon and engage the bandits.");
         choices.Add(c2);
 
-        PlayerChoice c3 = new PlayerChoice(8267, "Wake your fellow travelling companions.");
+        Skill[] reqSkills = new Skill[] { Skill.Stealth };
+        PlayerChoice c3 = new PlayerChoice(8408, "Sneak up on the bandits and ambush them.", reqSkills);
         choices.Add(c3);
     }
 }

@@ -20,12 +20,14 @@ public class StoryManager : MonoBehaviour
     Library mainLibrary;
     Library.LibraryDict library;
     public StoryPointManager spManager;
+    public TimeKeeper timeKeeper;
 
     private void Awake()
     {
         player = FindObjectOfType<Player>();
         mainLibrary = FindObjectOfType<Library>();
         spManager = GetComponent<StoryPointManager>();
+        timeKeeper = GetComponent<TimeKeeper>();
     }
 
     // Start is called before the first frame update
@@ -37,10 +39,11 @@ public class StoryManager : MonoBehaviour
         mainLibrary.PopulateLibrary();
 
         spManager.InitializeStoryPoints();
+        timeKeeper.SetNewTimeSheet();
 
         mainText.text = "";
 
-        LoadEntry(1513);
+        LoadEntry(1654);
     }
 
     private void InitialiseButtonArray()
@@ -65,7 +68,6 @@ public class StoryManager : MonoBehaviour
         currentEntry = library[idToLoad];
 
         currentEntry.OnEntryLoad(this);
-        //UpdateButtons();
     }
 
     public void UpdateMainText(string text)
@@ -77,7 +79,7 @@ public class StoryManager : MonoBehaviour
     {
         string timeAsWord = NumberToWordConverter.ConvertToWord(timePassed);
         mainText.text += $"~ {timeAsWord} time passes.\n";
-        //TODO: Update the in game time
+        timeKeeper.AdvanceTime(timePassed);
     }
 
     public void UpdateStamina(int staminaChange, bool staminaGained)
@@ -144,46 +146,4 @@ public class StoryManager : MonoBehaviour
             buttonArray[i].onClick.AddListener(delegate { LoadEntry(availableChoices[currentIndex].LinkedEntryID); });
         }
     }
-
-    //private void UpdateButtons()
-    //{
-    //    foreach (Button button in buttonArray)
-    //    {
-    //        button.onClick.RemoveAllListeners();
-    //        button.gameObject.SetActive(false);
-    //    }
-
-    //    if(currentEntry.LinkedChoices == null) { return; }
-
-    //    for (int i = 0; i < currentEntry.LinkedChoices.Count; i++)
-    //    {
-    //        buttonArray[i].gameObject.SetActive(true);
-
-    //        //Set the text for each button, including required skill if there is one
-    //        var buttonText = buttonArray[i].gameObject.GetComponentInChildren<TextMeshProUGUI>();
-    //        buttonText.text = currentEntry.LinkedChoices[i].Text;
-    //        if (currentEntry.LinkedChoices[i].SkillToCheck != null)
-    //        {
-    //            buttonText.text += " (Req:" + currentEntry.LinkedChoices[i].SkillToCheck + ")";
-    //        }
-
-    //        //Add OnClick event to buttons
-    //        int currentIndex = i; //A seperate local var is needed for adding the OnClick event because of how Unity handles closures.
-    //        buttonArray[i].onClick.AddListener(delegate { LoadEntry(currentEntry.LinkedChoices[currentIndex].LinkedEntryID); });
-
-    //        //If there is a skill to check
-    //        if (currentEntry.LinkedChoices[i].SkillToCheck != null)
-    //        {
-    //            //If the skill is in the players list of skills
-    //            if(player.SkillInPlayerArray(currentEntry.LinkedChoices[i].SkillToCheck))
-    //            {
-    //                buttonArray[i].interactable = true;
-    //            }
-    //            else
-    //            {
-    //                buttonArray[i].interactable = false;
-    //            }
-    //        }
-    //    }
-    //}
 }

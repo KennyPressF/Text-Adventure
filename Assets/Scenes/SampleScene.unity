@@ -244,6 +244,72 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 83804126}
   m_CullTransparentMesh: 1
+--- !u!1 &122292122
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 122292123}
+  - component: {fileID: 122292124}
+  m_Layer: 0
+  m_Name: E1902
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &122292123
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122292122}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &122292124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122292122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2350aa9acc0ce643a37ef573f2194a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 1902
+  bodyText1: 'You tell Mariam that Dragonholt used to have a successful apothecary
+    shop, one that was well known in the area.
+
+
+    "Yes!" says Mariam. "Aunt Sapphie
+    told me! She says that the shop is standing vacant, so I should be able to buy
+    it cheap. Who knows, maybe the last apothecary left some recipes or something
+    interesting behind." Mariam claps her hands, evidently delighted at her stroke
+    of good luck.
+
+
+    You almost don''t want to tell her what happened to the last
+    apothecary to work in Dragonholt, but you know you must tell her about the man''s
+    gisly fate. Mariam does not seem quite as distressed as you might have thought
+    she would be.
+
+
+    "That''s interesting," she says. "T wonder why Aunt Sapphie
+    never told me that. Oh well, it''s not as if I''m going to be doing anything
+    that foolhardy once I take the place over, and I''m sure all that blood got washed
+    out by now."'
 --- !u!1 &162189373
 GameObject:
   m_ObjectHideFlags: 0
@@ -499,6 +565,74 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 229321709}
   m_CullTransparentMesh: 1
+--- !u!1 &246757871
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 246757872}
+  - component: {fileID: 246757873}
+  m_Layer: 0
+  m_Name: E1654
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &246757872
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246757871}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &246757873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246757871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fe9cb9476e7ec34a953150f0e5304b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 1654
+  bodyText1: You grab your weapon and slip out of the camp, circling around toward
+    where you heard the sound. As your eyes adjust to the darkness, you move silently
+    from tree to tree and soon find yourself behind a small group of rough-looking
+    people, lurking in the bushes and watching your camp. Bandits!
+  bodyText2: 'There are three bandits directly in front of you, two men and a woman
+    in torn and stained clothing and scraps of leather armor. The woman holds a strung
+    bow across her knees as she crouches, while one of the men has a spear and the
+    other a long knife in his hand.
+
+
+    "Wasn''t someone on watch by the fire?"
+    asks one of the men.
+
+
+    "I don''t see anyone there now." says the woman.
+
+
+    "Quiet!"
+    says the other man. "Wait for the signal."
+
+
+    They clearly haven''t noticed
+    you. Just as clearly, they''re intending to attack your traveling companions.'
 --- !u!1 &330929276
 GameObject:
   m_ObjectHideFlags: 0
@@ -1534,6 +1668,62 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 972604329}
   m_CullTransparentMesh: 1
+--- !u!1 &986488746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 986488747}
+  - component: {fileID: 986488748}
+  m_Layer: 0
+  m_Name: E1521
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &986488747
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986488746}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &986488748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986488746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c73f2050a7aa6db48ac64b016d33cbbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 1521
+  bodyText1: '"Have you not met many?" she asks. "Well, they''re not all like me.
+    My people celebrate independence and strength. I hear that orc clans rule in
+    Broken Plains, but here in Terrinoth we mostly live in small bands, traveling
+    from barony to barony. The humans don''t like it when large numbers of orcs settle
+    anywhere for long, so we have to keep moving."
+
+
+    Braxton looks down to where
+    her hand is wrapped around her sword hilt. "The humans are happy to pay us to
+    fight for them, though. You can find my people serving as mercenaries, even gladiators,
+    all throughout Terrinoth." She takes her hand from her sword.'
 --- !u!1 &1091372846
 GameObject:
   m_ObjectHideFlags: 0
@@ -1679,6 +1869,7 @@ GameObject:
   - component: {fileID: 1145410908}
   - component: {fileID: 1145410907}
   - component: {fileID: 1145410910}
+  - component: {fileID: 1145410911}
   m_Layer: 0
   m_Name: StoryManager
   m_TagString: Untagged
@@ -1704,6 +1895,7 @@ MonoBehaviour:
   buttonArray: []
   player: {fileID: 0}
   spManager: {fileID: 0}
+  timeKeeper: {fileID: 0}
 --- !u!4 &1145410908
 Transform:
   m_ObjectHideFlags: 0
@@ -1731,6 +1923,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32132f3b23686dc498ee96513ed32943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1145410911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145410906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b308e2fe4ae6d44e8cdf94184b78c4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentTimeSheet: {fileID: 0}
+  timeSheetsArray:
+  - {fileID: 11400000, guid: 43001d0cdf9f5d24a8f4fc7f3cc61f78, type: 2}
 --- !u!1 &1234671221
 GameObject:
   m_ObjectHideFlags: 0
@@ -2063,16 +2270,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entryID: 1096
-  bodyText1: 'Mariam lets out a long yawn, and you second the motion. As you nestle
-    into your bedroll for the night, Braxton speaks up.
-
-
-    "Best we don''t all
-    sleep at once. I''ll take first watch. Can I count on you to take the second?"
-
-
-    You
-    nod your head in agreement and drift off to sleep.'
+  bodyText1: Mariam lets out a long yawn, and you second the motion. As you nestle
+    into your bedroll for the night, Braxton speaks up. "Best we don't all sleep
+    at once. I'll take first watch. Can I count on you to take the second?" You nod
+    your head in agreement and drift off to sleep.
   bodyText2: 'You rouse from your slumber to a gentle coaxing from Braxton.
 
 
@@ -2097,37 +2298,6 @@ MonoBehaviour:
 
     Just then, your hear a rustling in the thick brush on one side of
     the camp and recall Braxton''s warnings about bandits.'
---- !u!1 &1671682171
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1671682172}
-  m_Layer: 0
-  m_Name: TimeKeeper
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1671682172
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1671682171}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1675912864
 GameObject:
   m_ObjectHideFlags: 0
@@ -2704,6 +2874,9 @@ Transform:
   - {fileID: 1290138921}
   - {fileID: 839630719}
   - {fileID: 859057508}
+  - {fileID: 986488747}
+  - {fileID: 246757872}
+  - {fileID: 122292123}
   m_Father: {fileID: 689001686}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
@@ -2716,4 +2889,3 @@ SceneRoots:
   - {fileID: 1145410908}
   - {fileID: 1815752868}
   - {fileID: 689001686}
-  - {fileID: 1671682172}

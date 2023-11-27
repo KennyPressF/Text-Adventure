@@ -7,6 +7,17 @@ public class Enums : MonoBehaviour
     
 }
 
+public enum AdventureBook
+{
+    ToNewRoads,
+    DragonholtVillage,
+    SliverOfSilver,
+    CryptOfKharthuun,
+    WhisperingLeaves,
+    TeoorOnThePrairie,
+    PaperFaces
+}
+
 public enum Skill
 {
     Agility,
