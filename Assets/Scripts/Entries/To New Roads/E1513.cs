@@ -11,6 +11,9 @@ public class E1513 : Entry
 
     List<PlayerChoice> choices;
 
+    [TextArea(2, 20)]
+    [SerializeField] string[] responses;
+
     public void Awake()
     {
         base.EntryID = entryID;
@@ -30,12 +33,12 @@ public class E1513 : Entry
 
         if(sm.player.SkillInPlayerArray(Skill.Brawling) || sm.player.SkillInPlayerArray(Skill.Willpower))
         {
-            PlayerChoice c1 = new PlayerChoice(8563, "Continue...");
+            PlayerChoice c1 = new PlayerChoice(8563, responses[choices.Count]);
             choices.Add(c1);
         }
         else
         {
-            PlayerChoice c2 = new PlayerChoice(4384, "Continue...");
+            PlayerChoice c2 = new PlayerChoice(4384, responses[choices.Count]);
             choices.Add(c2);
         }
     }

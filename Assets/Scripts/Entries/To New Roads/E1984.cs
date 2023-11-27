@@ -11,6 +11,9 @@ public class E1984 : Entry
 
     List<PlayerChoice> choices;
 
+    [TextArea(2, 20)]
+    [SerializeField] string[] responses;
+
     public void Awake()
     {
         base.EntryID = entryID;
@@ -32,12 +35,12 @@ public class E1984 : Entry
 
         if (sm.timeKeeper.TimePassed >= 2)
         {
-            PlayerChoice c1 = new PlayerChoice(4389, "Continue...");
+            PlayerChoice c1 = new PlayerChoice(4389, responses[choices.Count]);
             choices.Add(c1);
         }
         else
         {
-            PlayerChoice c2 = new PlayerChoice(7616, "Continue...");
+            PlayerChoice c2 = new PlayerChoice(7616, responses[choices.Count]);
             choices.Add(c2);
         }
     }

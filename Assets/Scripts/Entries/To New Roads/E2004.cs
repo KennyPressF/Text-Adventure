@@ -11,6 +11,9 @@ public class E2004 : Entry
 
     List<PlayerChoice> choices;
 
+    [TextArea(2, 20)]
+    [SerializeField] string[] responses;
+
     public void Awake()
     {
         base.EntryID = entryID;
@@ -28,16 +31,16 @@ public class E2004 : Entry
     {
         choices = new List<PlayerChoice>();
 
-        PlayerChoice c1 = new PlayerChoice(7296, "Rush forward to engage the bandit.");
+        PlayerChoice c1 = new PlayerChoice(7296, responses[choices.Count]);
         choices.Add(c1);
 
-        PlayerChoice c2 = new PlayerChoice(8310, "Brace yourself to recieve the charge.", new Skill[] { Skill.Military });
+        PlayerChoice c2 = new PlayerChoice(8310, responses[choices.Count], new Skill[] { Skill.Military });
         choices.Add(c2);
 
-        PlayerChoice c3 = new PlayerChoice(3568, "Flee and attack at range.", new Skill[] { Skill.Arcana, Skill.Archery, Skill.Thievery });
+        PlayerChoice c3 = new PlayerChoice(3568, responses[choices.Count], new Skill[] { Skill.Arcana, Skill.Archery, Skill.Thievery });
         choices.Add(c3);
 
-        PlayerChoice c4 = new PlayerChoice(4340, "Protect yourself with an alchemical mixture.", new Skill[] { Skill.Alchemy });
+        PlayerChoice c4 = new PlayerChoice(4340, responses[choices.Count], new Skill[] { Skill.Alchemy });
         choices.Add(c4);
     }
 }

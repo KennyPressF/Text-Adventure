@@ -11,6 +11,9 @@ public class E1253 : Entry
 
     List<PlayerChoice> choices;
 
+    [TextArea(2, 20)]
+    [SerializeField] string[] responses;
+
     public void Awake()
     {
         base.EntryID = entryID;
@@ -28,7 +31,7 @@ public class E1253 : Entry
     {
         choices = new List<PlayerChoice>();
 
-        PlayerChoice c1 = new PlayerChoice(9513, "Continue...");
+        PlayerChoice c1 = new PlayerChoice(9513, responses[choices.Count]);
         choices.Add(c1);
     }
 }

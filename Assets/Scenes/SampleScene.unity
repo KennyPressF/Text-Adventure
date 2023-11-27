@@ -310,6 +310,8 @@ MonoBehaviour:
     never told me that. Oh well, it''s not as if I''m going to be doing anything
     that foolhardy once I take the place over, and I''m sure all that blood got washed
     out by now."'
+  responses:
+  - Continue...
 --- !u!1 &162189373
 GameObject:
   m_ObjectHideFlags: 0
@@ -633,6 +635,10 @@ MonoBehaviour:
 
     They clearly haven''t noticed
     you. Just as clearly, they''re intending to attack your traveling companions.'
+  responses:
+  - Shout a warning to your traveling companions.
+  - Draw your weapon and engage the bandits.
+  - Sneak up on the bandits and ambush them.
 --- !u!1 &330929276
 GameObject:
   m_ObjectHideFlags: 0
@@ -1114,6 +1120,68 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 556450831}
   m_CullTransparentMesh: 1
+--- !u!1 &567817924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 567817925}
+  - component: {fileID: 567817926}
+  m_Layer: 0
+  m_Name: E2172
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &567817925
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567817924}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &567817926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567817924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08a2135f29f086543a1b024e25ece6a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 2172
+  bodyText1: You gaze up at the stars, walking a slow circle around the great tree
+    in the clearing's center to get a better view. You take your bearings from the
+    constellations and find Latariana's Star. You are now confident you know which
+    way to go to reach Dragonholt.
+  bodyText2: As you make your way back to the campfire, you feel something small
+    strike the top of your head. It's a small statuette. You look up at the branches
+    of the great oak and notice a number of small pages and other trinkets tied to
+    branches or resting on tree limbs.
+  bodyText3: 'You return to the campfire and show the trinket to your companions.
+    "What do you make of it?" asks Braxton.
+
+
+    "I''m not sure," says Mariam. "I
+    think this was carved by a human or an orc; too rough to be made by an elf. Probably
+    just some harmless local custom." Mariam tosses the trinket back to you.'
+  responses:
+  - Continue...
 --- !u!1 &580404242
 GameObject:
   m_ObjectHideFlags: 0
@@ -1165,6 +1233,8 @@ MonoBehaviour:
   bodyText2: Trapping his hook-arm against your body, you hurl the bandit off balance
     despite your pain. A quick blow from your weapon sends him screaming to the ground,
     and you move on.
+  responses:
+  - Continue...
 --- !u!1 &613208571
 GameObject:
   m_ObjectHideFlags: 0
@@ -1491,6 +1561,8 @@ MonoBehaviour:
     Groaning and clutching at his burned face, the bandit begins crawling
     for the trees. It''s not until you turn your attention elsewhere that you notice
     you''ve burned your hand.'
+  responses:
+  - Continue...
 --- !u!1 &839630718
 GameObject:
   m_ObjectHideFlags: 0
@@ -1541,6 +1613,9 @@ MonoBehaviour:
     at the edge of the forest.
   bodyText2: As you walk, you take the chance to become better acquainted with your
     fellow travelers.
+  responses:
+  - Ask Mariam what she plans to do in Dragonholt.
+  - Ask Braxton what she plans to do in Dragonholt.
 --- !u!1 &859057507
 GameObject:
   m_ObjectHideFlags: 0
@@ -1589,6 +1664,8 @@ MonoBehaviour:
   bodyText1: You steel yourself and wait until the last moment before the spearpoint
     would impact your chest. In an instant, you fall back a step and grab the spear's
     neck.
+  responses:
+  - Continue...
 --- !u!1 &972604329
 GameObject:
   m_ObjectHideFlags: 0
@@ -1779,6 +1856,8 @@ MonoBehaviour:
     her hand is wrapped around her sword hilt. "The humans are happy to pay us to
     fight for them, though. You can find my people serving as mercenaries, even gladiators,
     all throughout Terrinoth." She takes her hand from her sword.'
+  responses:
+  - Continue...
 --- !u!1 &1091372846
 GameObject:
   m_ObjectHideFlags: 0
@@ -1967,6 +2046,8 @@ MonoBehaviour:
     "Aunt Sapphie made it specially for me. It keeps the sun off and the rain, and
     I think it looks just dashing." She holds her cape out in her arms and makes
     a few swooshing motions, letting the fabric billow around her.'
+  responses:
+  - Continue...
 --- !u!1 &1145410906
 GameObject:
   m_ObjectHideFlags: 0
@@ -2116,6 +2197,68 @@ MonoBehaviour:
 
     "They were awful to you!" says Mariam. "That''s all I need
     to know."'
+  responses:
+  - Continue...
+--- !u!1 &1184832718
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1184832719}
+  - component: {fileID: 1184832720}
+  m_Layer: 0
+  m_Name: E2306
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1184832719
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184832718}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1184832720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184832718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db41ae3a877f39440b163784390ab1eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 2306
+  bodyText1: '"I''ve heard all sorts of stories about Eventide Forest," says Mariam.
+    "I''ve even heard that there is a sceret kingdom somewhere in the treetops, where
+    elves and fairies dance in the starlight, hidden from the eyes of gnomes."
+
+
+    She
+    shrugs and looks up at the mossy tree branches. "I don''t believe half of it,
+    though. I think it''s just a big, dark forest, and people are scared of anything
+    they don''t know anything about."
+
+
+    "Also there''s the bandits." says Braxton
+    from behind you.'
+  responses:
+  - Continue...
 --- !u!1 &1234671221
 GameObject:
   m_ObjectHideFlags: 0
@@ -2269,6 +2412,82 @@ MonoBehaviour:
     the orc's face. When you wind up as if you are about to throw the arrow back
     at the bandit, she panics, dropping her bow to the ground and fleeing into the
     forest.
+  responses:
+  - Continue...
+--- !u!1 &1294923114
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1294923115}
+  - component: {fileID: 1294923116}
+  m_Layer: 0
+  m_Name: E2399
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1294923115
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294923114}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1294923116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294923114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b826b3ab8ad21874181e624454b35007, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 2399
+  bodyText1: 'You find yourself standing in a loose circle with your companions and
+    no bandits close at hand. Even more of the enemy emerge from the trees, however,
+    and they begin to surround you.
+
+
+    "What now?" breathes Mariam. You''re sure
+    it''s the first time you''ve heard fear in her voice.
+
+
+    The bandits'' leader
+    chuckles and speaks, causing the firelight to play off the long scar on the side
+    of his face in a sinister way. "Drop your valuables and leave. There is no need
+    for you to die here." The other bandits hoot and howl and brandish their blades
+    and axes in the air in front of you.
+
+
+    Braxton glances sideways at you. "There
+    are too many of them. We cannot win this fight." She edges backward, and you
+    notice her lean in the direction of Dragonholt.
+
+
+    "You can''t have my gold.
+    I''ll be using it to start my business!" hisses Mariam. Despite the bite in her
+    words, you notice her hands trembling.'
+  responses:
+  - Fend off the bandits long enough for the others to escape.
+  - Create a diversion and flee toward Dragonholt.
+  - Create a smoke screen and escape toward Dragonholt.
+  - Turn tail and run.
 --- !u!1 &1539031369
 GameObject:
   m_ObjectHideFlags: 0
@@ -2476,6 +2695,10 @@ MonoBehaviour:
 
     Just then, your hear a rustling in the thick brush on one side of
     the camp and recall Braxton''s warnings about bandits.'
+  responses:
+  - Watch for further movement or signs of danger.
+  - Arm yourself and take a closer look.
+  - Wake your fellow travelling companions.
 --- !u!1 &1671753979
 GameObject:
   m_ObjectHideFlags: 0
@@ -2525,6 +2748,8 @@ MonoBehaviour:
     in the leg, sending him tumbling to the ground and rolling to a halt not three
     paces from you. As he struggles to stand, you fire one more time then turn your
     attention elsewhere.
+  responses:
+  - Continue...
 --- !u!1 &1675912864
 GameObject:
   m_ObjectHideFlags: 0
@@ -2577,6 +2802,8 @@ MonoBehaviour:
     her arrow is brushing her cheek. You step up behind her and bring a rock down
     on the back of her head, watching her boneless form slump back against the great
     oak's trunk.
+  responses:
+  - Continue...
 --- !u!1 &1690582615
 GameObject:
   m_ObjectHideFlags: 0
@@ -2750,6 +2977,8 @@ MonoBehaviour:
 
 
     You get the distinct impression that she is humoring you.'
+  responses:
+  - Continue...
 --- !u!1 &1732666482
 GameObject:
   m_ObjectHideFlags: 0
@@ -2961,6 +3190,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1815752868}
   - component: {fileID: 1815752867}
+  - component: {fileID: 1815752869}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2997,6 +3227,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1815752869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815752866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05d34879bed0a964dafaabafe620d1e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemSlots: []
+  itemArray:
+  - {fileID: 11400000, guid: ce64f5fddcd5be9438287a25d2dadf72, type: 2}
+  - {fileID: 11400000, guid: fee6aa67ca88f8948b867d0c8de3c35a, type: 2}
 --- !u!1 &1869366323
 GameObject:
   m_ObjectHideFlags: 0
@@ -3170,6 +3416,11 @@ MonoBehaviour:
     Screaming incoherently,
     a scarred bandit rushes at you. In one hand, he brandishes a studded, iron mace.
     The other arm ends in a steel hook, its metal glinting in the firelight.'
+  responses:
+  - Rush forward to engage the bandit.
+  - Brace yourself to recieve the charge.
+  - Flee and attack at range.
+  - Protect yourself with an alchemical mixture.
 --- !u!1 &2058093494
 GameObject:
   m_ObjectHideFlags: 0
@@ -3214,6 +3465,9 @@ Transform:
   - {fileID: 1971296913}
   - {fileID: 1160992930}
   - {fileID: 1671753980}
+  - {fileID: 567817925}
+  - {fileID: 1184832719}
+  - {fileID: 1294923115}
   m_Father: {fileID: 689001686}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807

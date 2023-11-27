@@ -2,15 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class E1340 : Entry
+public class E2399 : Entry
 {
     [SerializeField] int entryID;
 
     [TextArea(3, 20)]
     [SerializeField] string bodyText1;
-
-    [TextArea(3, 20)]
-    [SerializeField] string bodyText2;
 
     List<PlayerChoice> choices;
 
@@ -25,8 +22,6 @@ public class E1340 : Entry
     public override void OnEntryLoad(StoryManager sm)
     {
         sm.UpdateMainText(bodyText1);
-        sm.UpdateTime(1);
-        sm.UpdateMainText(bodyText2);
 
         PopulateChoices(sm);
         sm.UpdateButtons(choices);
@@ -36,10 +31,16 @@ public class E1340 : Entry
     {
         choices = new List<PlayerChoice>();
 
-        PlayerChoice c1 = new PlayerChoice(3579, responses[choices.Count], "E7");
+        PlayerChoice c1 = new PlayerChoice(6738, responses[choices.Count], new Skill[] { Skill.Brawling, Skill.Dueling, Skill.Military });
         choices.Add(c1);
 
-        PlayerChoice c2 = new PlayerChoice(4945, responses[choices.Count], "N3");
+        PlayerChoice c2 = new PlayerChoice(5280, responses[choices.Count], new Skill[] { Skill.Deception, Skill.Performance });
         choices.Add(c2);
+
+        PlayerChoice c3 = new PlayerChoice(8267, responses[choices.Count], new Skill[] { Skill.Alchemy });
+        choices.Add(c3);
+
+        PlayerChoice c4 = new PlayerChoice(8267, responses[choices.Count]);
+        choices.Add(c4);
     }
 }

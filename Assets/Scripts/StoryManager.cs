@@ -17,6 +17,7 @@ public class StoryManager : MonoBehaviour
     public Button[] buttonArray;
 
     public Player player;
+    PlayerInventory inventory;
     Library mainLibrary;
     Library.LibraryDict library;
     public StoryPointManager spManager;
@@ -25,6 +26,7 @@ public class StoryManager : MonoBehaviour
     private void Awake()
     {
         player = FindObjectOfType<Player>();
+        inventory = player.GetComponent<PlayerInventory>();
         mainLibrary = FindObjectOfType<Library>();
         spManager = GetComponent<StoryPointManager>();
         timeKeeper = GetComponent<TimeKeeper>();
@@ -43,7 +45,7 @@ public class StoryManager : MonoBehaviour
 
         mainText.text = "";
 
-        LoadEntry(2004);
+        LoadEntry(1096);
     }
 
     private void InitialiseButtonArray()
@@ -77,9 +79,10 @@ public class StoryManager : MonoBehaviour
 
     public void UpdateTime(int timePassed)
     {
+        timeKeeper.AdvanceTime(timePassed);
+
         string timeAsWord = NumberToWordConverter.ConvertToWord(timePassed);
         mainText.text += $"~ {timeAsWord} time passes.\n";
-        timeKeeper.AdvanceTime(timePassed);
     }
 
     public void UpdateStamina(int staminaChange, bool staminaGained)
@@ -98,6 +101,19 @@ public class StoryManager : MonoBehaviour
         }
     }
 
+    public void UpdateInventory(char itemID, int quantity, bool itemGained)
+    {
+        if (itemGained)
+        {
+            inventory.AddItem(itemID, quantity);
+            mainText.text += $"~ You recieved an item: {inventory.itemDictionary[itemID].itemName}\n";
+        }
+        else
+        {
+            inventory.RemoveItem(itemID, quantity);
+        }
+    }
+
     public void UpdateButtons(List<PlayerChoice> availableChoices)
     {
         for (int i = 0; i < availableChoices.Count; i++)
@@ -112,7 +128,7 @@ public class StoryManager : MonoBehaviour
                 buttonText.text += "\n(Req: ";
                 for (int s = 0; s < availableChoices[i].SkillsToCheck.Length; s++)
                 {
-                    if(s != 0) { buttonText.text += " or "; }
+                    if (s != 0) { buttonText.text += " or "; }
                     buttonText.text += availableChoices[i].SkillsToCheck[s];
                 }
                 buttonText.text += ")";

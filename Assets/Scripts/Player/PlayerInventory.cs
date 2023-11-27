@@ -20,7 +20,7 @@ public class PlayerInventory : MonoBehaviour
     public List<ItemSlot> itemSlots = new List<ItemSlot>();
 
     [SerializeField] ItemSO[] itemArray;
-    private Dictionary<char, ItemSO> itemDictionary = new Dictionary<char, ItemSO>();
+    public Dictionary<char, ItemSO> itemDictionary = new Dictionary<char, ItemSO>();
 
     private void Start()
     {

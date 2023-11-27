@@ -15,6 +15,9 @@ public class E1096 : Entry
 
     List<PlayerChoice> choices;
 
+    [TextArea(2, 20)]
+    [SerializeField] string[] responses;
+
     public void Awake()
     {
         base.EntryID = entryID;
@@ -35,13 +38,13 @@ public class E1096 : Entry
     {
         choices = new List<PlayerChoice>();
 
-        PlayerChoice c1 = new PlayerChoice(3123, "Watch for further movement or signs of danger.");
+        PlayerChoice c1 = new PlayerChoice(3123, responses[choices.Count]);
         choices.Add(c1);
 
-        PlayerChoice c2 = new PlayerChoice(1654, "Arm yourself and take a closer look.");
+        PlayerChoice c2 = new PlayerChoice(1654, responses[choices.Count]);
         choices.Add(c2);
 
-        PlayerChoice c3 = new PlayerChoice(8267, "Wake your fellow travelling companions.");
+        PlayerChoice c3 = new PlayerChoice(8267, responses[choices.Count]);
         choices.Add(c3);
     }
 }
