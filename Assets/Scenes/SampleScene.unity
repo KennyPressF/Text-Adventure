@@ -123,6 +123,187 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &6893544
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6893545}
+  - component: {fileID: 6893546}
+  m_Layer: 0
+  m_Name: E3876
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6893545
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6893544}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6893546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6893544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f120258c8075aa0489e5b876d8b55e46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 3876
+  bodyText1: 'You swap recipes with Mariam, teaching her a useful draught to combat
+    hay fever in exchange for a tincture that can repair broken pottery. "But be
+    careful with it," says the gnome. "If it touches your skin, you will become part
+    of the pot. Also," says Mariam as if just remembering something, "don''t store
+    it in a clay container. Only glass."
+
+
+    Braxton sighs. "You liked that pot.
+    I''m sorry it was ruined."
+
+
+    "It''s fine," says Mariam brightly. "It sure
+    came in handy when you blundered into those spider webs."
+
+
+    "I remember that
+    differently," says Braxton.
+
+
+    "You didn''t have to come in after me," pouts
+    Mariam. "I was fine. You''re the one who got caught in webs."'
+  responses:
+  - Continue...
+--- !u!1 &15204810
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 15204811}
+  - component: {fileID: 15204812}
+  m_Layer: 0
+  m_Name: E3967
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &15204811
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15204810}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &15204812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15204810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b63e1922054fc54c8a5a0eb737070e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 3967
+  bodyText1: 'You produce a blasting rune from an interior pocket and calmly bend
+    the energy within to your will. You extend a phantom limb toward the rocks below
+    and, with clenched fist, impact the cliff face. Stones and earth shatter and
+    fly, showering the climbing bandits with rocky shrapnel.
+
+
+    A great cloud
+    of dirt and dust covers the path below, causing the bandits to cough and sputter.
+    Soon the bandits are running from the cloud, retreating into the forest. You
+    have escaped.'
+  responses:
+  - Continue...
+--- !u!1 &60139135
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 60139136}
+  - component: {fileID: 60139137}
+  m_Layer: 0
+  m_Name: E4293
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &60139136
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60139135}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &60139137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60139135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a774ad085792f7446a8a0e8f8c909569, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 4293
+  bodyText1: 'You hold up a vial of Lorimor Fire, sharing a knowing glance with Mariam.
+    "Oh, that''s just mean," she says, pulling out a vial of her own. "On three,"
+    she says, and counts you off.
+
+
+    Together, you each break your vials of fire
+    on the lip of the cliff, sending a cascade of burning liquid down upon the climbing
+    bandits. Shrieking in pain and fear, they hurl themselves from the cliff, some
+    burned, others simply desperate to escape.'
+  responses:
+  - Continue...
 --- !u!1 &83804126
 GameObject:
   m_ObjectHideFlags: 0
@@ -639,6 +820,82 @@ MonoBehaviour:
   - Shout a warning to your traveling companions.
   - Draw your weapon and engage the bandits.
   - Sneak up on the bandits and ambush them.
+--- !u!1 &247989265
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 247989266}
+  - component: {fileID: 247989267}
+  m_Layer: 0
+  m_Name: E3859
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &247989266
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247989265}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &247989267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247989265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58cad3d637402fb48ac17e7772eca5f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 2859
+  bodyText1: Eventide Forest is an intimidating landmark, and you can see why Braxton
+    was concerned. Within an hour of entering the forest, the thin, young trees give
+    way to ancient, gnarled guardians. The light, leafy canopy transforms into an
+    oppressive shroud that cloaks the road in darkness, even during the most sunny
+    of days.
+  bodyText2: 'In the darkness of Eventide Forest, a chilling stillness reigns, and
+    even bird songs are drowned out by silence. You continue onward, Mariam''s usual
+    banter quieted by her new mood, one part fascination and one part fear. Braxton
+    keeps an ever-vigilant eye on the surroundings, her hand now resting on the pommel
+    of the blade at her waist.
+
+
+    You soon come to a stop when you catch up to
+    Mariam. She is glancing down what appears to be a small game trail that branches
+    away from the main road. Up ahead, you see that a number of fallen trees are
+    blocking your path. An old crossroads signpost marks the split, but the wood
+    is too rotted and the writing is indecipherable. "What do we do now?"
+
+
+    "It
+    doesn''t seem like Lady Regina has been alerted yet." Braxton strains to look
+    over the fallen trees. "We could clear the road ourselves or send word to Lady
+    Regina once we reach Dragonholt."
+
+
+    "We could try this trail," offers Mariam.
+    "Maybe it connects to the main road on the other side."'
+  responses:
+  - Scout along the game trail and report back.
+  - Climb over the trees and continue on the main road.
+  - Clear the road of debris before continuing.
 --- !u!1 &264655049
 GameObject:
   m_ObjectHideFlags: 0
@@ -1118,6 +1375,127 @@ MonoBehaviour:
     Braxton chuckles warmly to herself. "I belive our new
     friend is worried for you not because of your size but because of your nature.
     Even though you can protect yourself, try not to worry us too much."'
+  responses:
+  - Continue...
+--- !u!1 &442952855
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 442952856}
+  - component: {fileID: 442952857}
+  m_Layer: 0
+  m_Name: E4184
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &442952856
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442952855}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &442952857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442952855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8961affa6fe4c7428a3497d7c2bb041, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 4184
+  bodyText1: 'Climbing over the fallen trees proves more difficult than you expected.
+    It seems that one enormous tree fell and brought several others with it, resulting
+    in an extensive tangle of branches and boughs. Many of the trees that collapsed
+    were dead and their branches have a tendency to break off with a sharp "Crack!"
+    when subjected to the slightest weight. Others are still fully leafed, making
+    it difficult to see where you are going.
+
+
+    "We should proceed carefully,"
+    says Braxton. "These trees must weigh several tons. If the pile shifts unexpectedly,
+    we could be crushed."'
+  bodyText2: 'After a few missteps and undignified squawks, Mariam grudgingly consents
+    to let Braxton lift her over the worst of the pile.
+
+
+    "We all have our talents,"
+    says Braxton at Mariam''s disgruntled expression. "Mine happens to be lifting
+    heavy things."
+
+
+    "I am not that heavy!" huffs Mariam. "Not even by gnome
+    standards!" Braxton laughs and hauls her down from her perch, finally reaching
+    the road again on the far side of the blockage.'
+  responses:
+  - Continue...
+--- !u!1 &472685590
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 472685591}
+  - component: {fileID: 472685592}
+  m_Layer: 0
+  m_Name: E4340
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &472685591
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 472685590}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &472685592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 472685590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c5d3ec36edaf540afece5f215980e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 4340
+  bodyText1: You reach to a belt pouch to retrieve a mixture that will stop the approaching
+    bandit in his tracks, but the bandit's charge is faster than you thought and
+    you fumble with the flap. In a moment, the bandit is upon you, his mace held
+    high!
   responses:
   - Continue...
 --- !u!1 &499028742
@@ -1798,6 +2176,144 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 613208571}
   m_CullTransparentMesh: 1
+--- !u!1 &661078614
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 661078615}
+  - component: {fileID: 661078616}
+  m_Layer: 0
+  m_Name: E3729
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &661078615
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661078614}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &661078616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661078614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2a326784ee1e354aa9c7dab3d17018b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 3729
+  bodyText1: As you climb up the great oak tree, you find a number of curious items
+    secreted throughout its branches. There are scraps of paper covered in writing
+    in various languages and hands - some tied around branches, others glued to the
+    trunk with sticky pine sap. There are intricately carved statuettes tucked into
+    crooks in the tree's boughs or strung from leather cords. There are small clay
+    pots tucked into holes. You pocket a small, wooden trinket to show your companions
+    when you return to the ground.
+  bodyText2: 'Leaving the other objects as undisturbed as you can manage, you climb
+    from thick, sturdy branch to thick, sturdy branch until you find yourself in
+    the upper boughs of the tree. Moving more cautiously lest the thinner branches
+    give way beneath your weight, you make your way to the edge of the leaves and
+    look out over Eventide Forest.
+
+
+    The trees beneath you murmur and whisper
+    in the night breeze, visible as little more than a dark ocean of rustling leaves.
+    In the distance, you can see the beacon tower in Dragonholt rising above the
+    forest. You are now confident you know the way to Dragonholt.
+
+
+    When you
+    return to camp, you show the wooden curio to your companions, but they have no
+    better idea what to make of it than you do. You decide to keep the trinket as
+    a souvenir to remind you of your trip.'
+  responses:
+  - Continue...
+--- !u!1 &675825336
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 675825337}
+  - component: {fileID: 675825338}
+  m_Layer: 0
+  m_Name: E4300
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &675825337
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675825336}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &675825338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675825336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f045c123ec2f9d840b24e9dc1b18731e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 4300
+  bodyText1: 'Braxton hefts a heavy steel shield and slashes her longsword threateningly
+    at one of the approaching bandits. Mariam produces two flasks and unstoppers
+    one of them. A thick, acrid smoke pours from its open mouth as she holds it aloft,
+    ready to throw.
+
+
+    Three of the bandits suddenly rush forward, charging the
+    camp. Mariam hurls the smoking flask which smashes against one of their bucklers.
+    A billowing cloud of acidic fog erupts from the impact site. The bandit shrieks
+    and flails, dropping his buckler to the ground as it dissolves.
+
+
+    The two
+    other bandits continue their charge. One swings an axe at Mariam, but Braxton
+    catches the blade with her longsword and slams her shield into the man, sending
+    him tumbling to the ground. The third bandit dodges around Braxton and darts
+    forward straight toward you, spearpoint trained at your chest.'
+  responses:
+  - Dodge the attack.
+  - Catch the spear and disarm the bandit.
+  - Deflect the spear and counter attack.
+  - Blast the bandit with a rune.
 --- !u!1 &689001683
 GameObject:
   m_ObjectHideFlags: 0
@@ -1847,6 +2363,59 @@ Transform:
   - {fileID: 2058093495}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &729802642
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 729802643}
+  - component: {fileID: 729802644}
+  m_Layer: 0
+  m_Name: E3792
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &729802643
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729802642}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &729802644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729802642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 244b53d2048ddfa4898a15a4d3bafaf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 3792
+  bodyText1: 'You position yourself between your companions and the orc archer just
+    as she draws back the string of her bow. You realize what you''ve gotten yourself
+    into too late.
+
+
+    The bandit looses an arrow that flies straight at your chest.'
+  responses:
+  - Continue...
 --- !u!1 &766163605
 GameObject:
   m_ObjectHideFlags: 0
@@ -3204,6 +3773,76 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1242072304
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1242072305}
+  - component: {fileID: 1242072306}
+  m_Layer: 0
+  m_Name: E4017
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1242072305
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1242072304}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1242072306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1242072304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe0ea4d5427e965458daa795780f9642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 4017
+  bodyText1: 'Mariam seems eager to build the fire and turn in for the night. "Who
+    cares about the stars?" she asks. "We''ll figure out which
+
+    way to go in
+    the morning."
+
+
+    After some gentle prodding, however, she relents. "Fine,
+    fine!" she says and skips out into the center of the clearing, gazing up at the
+    sky. "Okay, there''s Latariana''s Star," she says, pointing at a glimmering point
+    in the velvet darkness that looks, to your eye, just like all the other stars.
+    "So that means we need to go that way," she says, pointing again. "Right. Job
+    done."
+
+
+    On her way back, Mariam stops and leans down. She picks up something
+    from the forest floor, examining it as she returns. "What have you found?" asks
+    Braxton.
+
+
+    "I''m not sure," says Mariam. "I think this was carved by a human
+    or an orc; too rough to be made by an elf. A souvenir to remind you of our trip."
+    Mariam tosses the trinket to you with a grin.'
+  responses:
+  - Continue...
 --- !u!1 &1290138920
 GameObject:
   m_ObjectHideFlags: 0
@@ -3391,6 +4030,132 @@ MonoBehaviour:
     and lose track of him in the melee.'
   responses:
   - Continue...
+--- !u!1 &1338418590
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1338418591}
+  - component: {fileID: 1338418592}
+  m_Layer: 0
+  m_Name: E4156
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1338418591
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338418590}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1338418592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338418590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc19f75930121644f9d4819571875009, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 4156
+  bodyText1: '"Oh, all sorts." Mariam pulls out two glass bottles stoppered with
+    wax. She flourishes the blue one. "This potion can cure a dozen diseases and
+    keep wounds from being infected." She holds up a cloudy gray liquid in her other
+    hand. "This one is bottled smoke; use it to choke out a hornet''s nest, or signal
+    for help, or maybe give yourself something to hide behind." She glances down
+    at her bottles and purses her lips. "Or maybe I have that backward. Oh well."
+    She slips the bottles back into a leather pack at her hip.
+
+
+    "I''m always
+    looking for new recipes, but I already know enough to start my shop." She falls
+    silent as she examines a shy-looking flower growing in the shadow of a mossy
+    log. "Always looking for ingredients too!"'
+  responses:
+  - Continue...
+--- !u!1 &1405727057
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1405727058}
+  - component: {fileID: 1405727059}
+  m_Layer: 0
+  m_Name: E4041
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1405727058
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1405727057}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1405727059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1405727057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8a21a414a31fe441b022c4de5cd50d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 4041
+  bodyText1: '"Oh, gosh. Well, what is there to say?" She furrows her brow and wrinkles
+    her nose. "Gnomes are free spirits, I guess. We don''t have any towns or cities
+    of our own, not in Terrinoth, but you can always find us here and there. Most
+    of us travel a lot, but some, like my aunt, settle down if they can find a good
+    place to do it."
+
+
+    "Do all gnomes consistently place themselves in danger
+    or is that just you, Mariam?" asks Braxton.
+
+
+    "Just me!" beams Mariam. "But
+    I told you I can take care of myself."
+
+
+    You notice that Mariam makes no
+    mention of the most obvious trait of gnomes: their diminutive size. You''re not
+    certain if it seemed too obvious to bring up, or if she left it out as a sensitive
+    subject.'
+  responses:
+  - Continue...
 --- !u!1 &1539031369
 GameObject:
   m_ObjectHideFlags: 0
@@ -3525,6 +4290,77 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1539031369}
   m_CullTransparentMesh: 1
+--- !u!1 &1586646220
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1586646221}
+  - component: {fileID: 1586646222}
+  m_Layer: 0
+  m_Name: E3962
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1586646221
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586646220}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1586646222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586646220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c3cf6c82385a3f4ab8f2302bfb8bbcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 3962
+  bodyText1: 'Braxton produces an axe from her baggage, and you set to work clearing
+    the trees from the road. Breaking each tree down into pieces small enough to
+    move isn''t complicated, but it is tiring. Your shoulders burn from swinging
+    the axe, and your back
+
+
+    Mariam busies herself with the smaller branches.
+    When only larger boughs remain, she "helps" by singing "a gnomish working song"
+    that seems to include invented verses mocking you, Braxton, herself, gnomes in
+    general, Eventide Forest, and any other subject that catches her fancy.'
+  bodyText2: 'At length, you and Braxton roll the last and largest of the tree trunks
+    to rest against the side of the road, then collapse atop it for a brief rest.
+    You are done.
+
+
+    "Good work!" says Mariam, offering you each a drink of water
+    from a tin cup. "We should mention this in Dragonholt; it''ll really help me
+    get my business off the ground if people know I helped
+
+    clear the road."
+
+
+    Braxton
+    glances at you over her drink but says nothing.'
+  responses:
+  - Continue...
 --- !u!1 &1593989564
 GameObject:
   m_ObjectHideFlags: 0
@@ -4629,6 +5465,130 @@ MonoBehaviour:
   - Brace yourself to recieve the charge.
   - Flee and attack at range.
   - Protect yourself with an alchemical mixture.
+--- !u!1 &2049875498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2049875499}
+  - component: {fileID: 2049875500}
+  m_Layer: 0
+  m_Name: E4055
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2049875499
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049875498}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2049875500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049875498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46858108c1c913c42ad7a5b6796a7d73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 4055
+  bodyText1: You scramble up the cliff face, relying on the trees that cling to cracks
+    in the rock for handholds. This proves unwise, as not all of the trees are anchored
+    securely enough to bear your weight, and you find yourself dangling from your
+    fingertips above a steep drop.
+  bodyText2: 'Mariam isn''t making things any easier, either, despite Braxton''s
+    efforts. "I''ll be fine!" she huffs. "I''m not the only one here who needs help!"
+    she says with a nod at you. In fairness to the gnome, she''s not dangling from
+    her fingertips.
+
+
+    Braxton makes her way over to you and helps you regain
+    your footing. "Test each toehold before you put weight on it," she says.
+
+
+    You
+    resume your climb, but you hear shouting below you - the bandits have reached
+    the bottom of the cliff. They immediately begin pelting you with arrows and stones,
+    making the rest of the climb a nightmare.'
+  bodyText3: Finally, you make it to the top, gasping for breath. You are safe from
+    the bandits' arrows up here, but the bandits have already begun to climb up after
+    you.
+  responses:
+  - Throw rocks at bandits.
+  - Return fire with your bow.
+  - Smash a vial of alchemical fire on the cliff face.
+  - Blast the cliff face with runic magic.
+--- !u!1 &2056416049
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2056416050}
+  - component: {fileID: 2056416051}
+  m_Layer: 0
+  m_Name: E3715
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2056416050
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056416049}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2056416051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056416049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b13e6b02f45b3d4ea1f88ae1f85ecb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 3715
+  bodyText1: '"Oh, they''re out there, somewhere," says Mariam with a wave of her
+    hand. "You know us gnomes, we don''t settle down much. But my father taught me
+    most of what I know about brewing potions, and my mother was almost as good a
+    tailor as her sister before- nevermind about that. My father and brother are
+    out on the road somewhere. I''m sure I''ll see them at the next festival. Aunt
+    Sapphie and Braxton are all the family I need for right now."'
+  responses:
+  - Continue...
 --- !u!1 &2058093494
 GameObject:
   m_ObjectHideFlags: 0
@@ -4694,6 +5654,21 @@ Transform:
   - {fileID: 1137501992}
   - {fileID: 499028743}
   - {fileID: 1749685269}
+  - {fileID: 2056416050}
+  - {fileID: 661078615}
+  - {fileID: 729802643}
+  - {fileID: 247989266}
+  - {fileID: 6893545}
+  - {fileID: 1586646221}
+  - {fileID: 15204811}
+  - {fileID: 1242072305}
+  - {fileID: 1405727058}
+  - {fileID: 2049875499}
+  - {fileID: 1338418591}
+  - {fileID: 442952856}
+  - {fileID: 60139136}
+  - {fileID: 675825337}
+  - {fileID: 472685591}
   m_Father: {fileID: 689001686}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
