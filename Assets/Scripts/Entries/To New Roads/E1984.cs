@@ -21,6 +21,8 @@ public class E1984 : Entry
 
     public override void OnEntryLoad(StoryManager sm)
     {
+        base.OnEntryLoad(sm);
+
         sm.UpdateMainText(bodyText1);
         sm.spManager.MarkStoryPoint("S2");
         sm.spManager.MarkStoryPoint("W3");

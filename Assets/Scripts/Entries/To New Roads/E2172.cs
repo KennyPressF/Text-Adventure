@@ -24,6 +24,8 @@ public class E2172 : Entry
 
     public override void OnEntryLoad(StoryManager sm)
     {
+        base.OnEntryLoad(sm);
+
         sm.UpdateMainText(bodyText1);
         sm.spManager.MarkStoryPoint("L1");
         sm.UpdateInventory('B', 1, true);

@@ -25,6 +25,8 @@ public class E1103 : Entry
 
     public override void OnEntryLoad(StoryManager sm)
     {
+        base.OnEntryLoad(sm);
+
         sm.UpdateMainText(bodyText1);
 
         if(sm.spManager.IsStoryPointMarked("N3"))

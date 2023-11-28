@@ -21,6 +21,8 @@ public class E2808 : Entry
 
     public override void OnEntryLoad(StoryManager sm)
     {
+        base.OnEntryLoad(sm);
+
         sm.UpdateMainText(bodyText1);
         sm.spManager.MarkStoryPoint("R6");
 

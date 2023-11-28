@@ -25,6 +25,8 @@ public class E1099 : Entry
 
     public override void OnEntryLoad(StoryManager sm)
     {
+        base.OnEntryLoad(sm);
+
         sm.UpdateMainText(bodyText1);
         sm.UpdateStamina(5, false);
         sm.UpdateMainText(bodyText2);

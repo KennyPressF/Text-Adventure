@@ -24,6 +24,8 @@ public class E1340 : Entry
 
     public override void OnEntryLoad(StoryManager sm)
     {
+        base.OnEntryLoad(sm);
+
         sm.UpdateMainText(bodyText1);
         sm.UpdateTime(1);
         sm.UpdateMainText(bodyText2);

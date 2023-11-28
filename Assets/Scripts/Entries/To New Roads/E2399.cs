@@ -21,6 +21,8 @@ public class E2399 : Entry
 
     public override void OnEntryLoad(StoryManager sm)
     {
+        base.OnEntryLoad(sm);
+
         sm.UpdateMainText(bodyText1);
 
         PopulateChoices(sm);

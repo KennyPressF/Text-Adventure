@@ -2059,8 +2059,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -427.11328, y: 25.907}
-  m_SizeDelta: {x: 826.6851, y: 928.29}
+  m_AnchoredPosition: {x: 749, y: 432}
+  m_SizeDelta: {x: 363.7822, y: 145.3553}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &856181674
 MonoBehaviour:
@@ -2116,7 +2116,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 4
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -2926,7 +2926,7 @@ MonoBehaviour:
   player: {fileID: 0}
   spManager: {fileID: 0}
   timeKeeper: {fileID: 0}
-  entryIDText: {fileID: 0}
+  entryIDText: {fileID: 856181674}
 --- !u!4 &1145410908
 Transform:
   m_ObjectHideFlags: 0
@@ -4073,6 +4073,74 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1749685268
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1749685269}
+  - component: {fileID: 1749685270}
+  m_Layer: 0
+  m_Name: E3686
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1749685269
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1749685268}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1749685270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1749685268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cff373005be038b45a1ddba44b81966f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 3686
+  bodyText1: 'Mariam starts laughing before she even begins her story about meeting
+    Braxton. "Well, first of all, whatever Braxton tells you, I wasn''t drunk," says
+    Mariam. "But we did both get thrown out of the same tavern together! It was a
+    good night."
+
+
+    "I remember it rather differently," says Braxton.
+
+
+    "Well,
+    that''s because you''re no fun." Mariam winks at you. "You see, Braxton is a
+    wet blanket, but she keeps following me around because secretly she knows that
+    she would never do anything exciting if she didn''t."
+
+
+    "Also you pay me
+    to keep you safe," says Braxton.
+
+
+    "Also that!" exclaims Mariam with a broad
+    smile.'
+  responses:
+  - Continue...
 --- !u!1 &1790114711
 GameObject:
   m_ObjectHideFlags: 0
@@ -4625,6 +4693,7 @@ Transform:
   - {fileID: 1843154913}
   - {fileID: 1137501992}
   - {fileID: 499028743}
+  - {fileID: 1749685269}
   m_Father: {fileID: 689001686}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807

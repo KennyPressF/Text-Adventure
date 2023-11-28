@@ -24,6 +24,8 @@ public class E3607 : Entry
 
     public override void OnEntryLoad(StoryManager sm)
     {
+        base.OnEntryLoad(sm);
+
         sm.UpdateMainText(bodyText1);
         if (!sm.player.SkillInPlayerArray(Skill.Agility)) { sm.UpdateStamina(3, false); }
         sm.UpdateMainText(bodyText2);

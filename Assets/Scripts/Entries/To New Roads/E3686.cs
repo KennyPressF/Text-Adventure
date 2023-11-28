@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class E1902 : Entry
+public class E3686 : Entry
 {
     [SerializeField] int entryID;
 
@@ -24,8 +24,6 @@ public class E1902 : Entry
         base.OnEntryLoad(sm);
 
         sm.UpdateMainText(bodyText1);
-        sm.spManager.MarkStoryPoint("K6");
-        sm.spManager.MarkStoryPoint("M3");
 
         PopulateChoices(sm);
         sm.UpdateButtons(choices);
@@ -35,14 +33,14 @@ public class E1902 : Entry
     {
         choices = new List<PlayerChoice>();
 
-        if (sm.timeKeeper.TimePassed >= 2)
+        if(sm.timeKeeper.TimePassed >= 2)
         {
-            PlayerChoice c1 = new PlayerChoice(7094, responses[choices.Count]);
+            PlayerChoice c1 = new PlayerChoice(1096, responses[choices.Count]);
             choices.Add(c1);
         }
         else
         {
-            PlayerChoice c2 = new PlayerChoice(7616, responses[choices.Count]);
+            PlayerChoice c2 = new PlayerChoice(3859, responses[choices.Count]);
             choices.Add(c2);
         }
     }
