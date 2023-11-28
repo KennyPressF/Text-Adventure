@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class E2399 : Entry
+public class E3579 : Entry
 {
     [SerializeField] int entryID;
 
@@ -31,16 +31,22 @@ public class E2399 : Entry
     {
         choices = new List<PlayerChoice>();
 
-        PlayerChoice c1 = new PlayerChoice(6738, responses[choices.Count], new Skill[] { Skill.Brawling, Skill.Dueling, Skill.Military });
+        PlayerChoice c1 = new PlayerChoice(4156, responses[choices.Count]);
         choices.Add(c1);
 
-        PlayerChoice c2 = new PlayerChoice(5280, responses[choices.Count], new Skill[] { Skill.Deception, Skill.Performance });
+        PlayerChoice c2 = new PlayerChoice(3715, responses[choices.Count]);
         choices.Add(c2);
 
-        PlayerChoice c3 = new PlayerChoice(9495, responses[choices.Count], new Skill[] { Skill.Alchemy });
+        PlayerChoice c3 = new PlayerChoice(3876, responses[choices.Count], new Skill[] { Skill.Alchemy });
         choices.Add(c3);
 
-        PlayerChoice c4 = new PlayerChoice(7804, responses[choices.Count]);
+        PlayerChoice c4 = new PlayerChoice(1942, responses[choices.Count], new Skill[] { Skill.Craftmanship, Skill.Empathy });
         choices.Add(c4);
+
+        PlayerChoice c5 = new PlayerChoice(1902, responses[choices.Count], new Skill[] { Skill.History, Skill.Streetwise });
+        choices.Add(c5);
+
+        PlayerChoice c6 = new PlayerChoice(8508, responses[choices.Count], new Skill[] { Skill.Persuasion, Skill.Streetwise });
+        choices.Add(c6);
     }
 }

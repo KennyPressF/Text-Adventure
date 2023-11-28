@@ -23,6 +23,9 @@ public class StoryManager : MonoBehaviour
     public StoryPointManager spManager;
     public TimeKeeper timeKeeper;
 
+    //Testing tools
+    public TextMeshProUGUI entryIDText;
+
     private void Awake()
     {
         player = FindObjectOfType<Player>();
@@ -45,7 +48,7 @@ public class StoryManager : MonoBehaviour
 
         mainText.text = "";
 
-        LoadEntry(1096);
+        LoadEntry(3645);
     }
 
     private void InitialiseButtonArray()

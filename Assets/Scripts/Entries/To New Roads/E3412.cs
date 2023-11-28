@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class E2172 : Entry
+public class E3412 : Entry
 {
     [SerializeField] int entryID;
 
@@ -25,8 +25,7 @@ public class E2172 : Entry
     public override void OnEntryLoad(StoryManager sm)
     {
         sm.UpdateMainText(bodyText1);
-        sm.spManager.MarkStoryPoint("L1");
-        sm.UpdateInventory('B', 1, true);
+        sm.UpdateStamina(4, false);
         sm.UpdateMainText(bodyText2);
 
         PopulateChoices(sm);
@@ -37,7 +36,7 @@ public class E2172 : Entry
     {
         choices = new List<PlayerChoice>();
 
-        PlayerChoice c1 = new PlayerChoice(8549, responses[choices.Count]);
+        PlayerChoice c1 = new PlayerChoice(2004, responses[choices.Count]);
         choices.Add(c1);
     }
 }

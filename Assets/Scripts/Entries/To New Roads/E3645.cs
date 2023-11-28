@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class E2172 : Entry
+public class E3645 : Entry
 {
     [SerializeField] int entryID;
 
@@ -24,9 +24,10 @@ public class E2172 : Entry
 
     public override void OnEntryLoad(StoryManager sm)
     {
+        base.OnEntryLoad(sm);
+
         sm.UpdateMainText(bodyText1);
-        sm.spManager.MarkStoryPoint("L1");
-        sm.UpdateInventory('B', 1, true);
+        sm.UpdateTime(1);
         sm.UpdateMainText(bodyText2);
 
         PopulateChoices(sm);
@@ -37,7 +38,13 @@ public class E2172 : Entry
     {
         choices = new List<PlayerChoice>();
 
-        PlayerChoice c1 = new PlayerChoice(8549, responses[choices.Count]);
+        PlayerChoice c1 = new PlayerChoice(2533, responses[choices.Count]);
         choices.Add(c1);
+
+        PlayerChoice c2 = new PlayerChoice(5223, responses[choices.Count], new Skill[] { Skill.Archery });
+        choices.Add(c2);
+
+        PlayerChoice c3 = new PlayerChoice(3575, responses[choices.Count], new Skill[] { Skill.Survival });
+        choices.Add(c3);
     }
 }

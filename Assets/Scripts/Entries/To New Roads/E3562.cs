@@ -2,15 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class E2172 : Entry
+public class E3562 : Entry
 {
     [SerializeField] int entryID;
 
     [TextArea(3, 20)]
     [SerializeField] string bodyText1;
-
-    [TextArea(3, 20)]
-    [SerializeField] string bodyText2;
 
     List<PlayerChoice> choices;
 
@@ -27,7 +24,6 @@ public class E2172 : Entry
         sm.UpdateMainText(bodyText1);
         sm.spManager.MarkStoryPoint("L1");
         sm.UpdateInventory('B', 1, true);
-        sm.UpdateMainText(bodyText2);
 
         PopulateChoices(sm);
         sm.UpdateButtons(choices);
