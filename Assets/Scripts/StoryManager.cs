@@ -48,7 +48,7 @@ public class StoryManager : MonoBehaviour
 
         mainText.text = "";
 
-        LoadEntry(3645);
+        LoadEntry(8549);
     }
 
     private void InitialiseButtonArray()
@@ -141,7 +141,7 @@ public class StoryManager : MonoBehaviour
                 {
                     foreach (var skill in availableChoices[i].SkillsToCheck)
                     {
-                        if (player.SkillInPlayerArray(skill))
+                        if (player.IsSkillInPlayerArray(skill))
                         {
                             buttonArray[i].interactable = true;
                             break;

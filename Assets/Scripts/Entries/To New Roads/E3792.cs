@@ -44,7 +44,7 @@ public class E3792 : Entry
     {
         choices = new List<PlayerChoice>();
 
-        if (sm.player.SkillInPlayerArray(Skill.Brawling) || sm.player.SkillInPlayerArray(Skill.Devotion) || sm.player.SkillInPlayerArray(Skill.Willpower))
+        if (sm.player.IsSkillInPlayerArray(Skill.Brawling) || sm.player.IsSkillInPlayerArray(Skill.Devotion) || sm.player.IsSkillInPlayerArray(Skill.Willpower))
         {
             PlayerChoice c1 = new PlayerChoice(6899, responses[choices.Count]);
             choices.Add(c1);

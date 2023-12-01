@@ -29,7 +29,7 @@ public class E4184 : Entry
         sm.UpdateMainText(bodyText1);
         sm.UpdateTime(1);
 
-        if (!sm.player.SkillInPlayerArray(Skill.Athletics))
+        if (!sm.player.IsSkillInPlayerArray(Skill.Athletics))
         {
             sm.UpdateStamina(2, false);
         }

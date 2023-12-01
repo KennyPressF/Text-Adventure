@@ -27,7 +27,7 @@ public class E3607 : Entry
         base.OnEntryLoad(sm);
 
         sm.UpdateMainText(bodyText1);
-        if (!sm.player.SkillInPlayerArray(Skill.Agility)) { sm.UpdateStamina(3, false); }
+        if (!sm.player.IsSkillInPlayerArray(Skill.Agility)) { sm.UpdateStamina(3, false); }
         sm.UpdateMainText(bodyText2);
 
         PopulateChoices(sm);

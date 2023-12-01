@@ -31,7 +31,7 @@ public class E5822 : Entry
         bool playerHasSkill = false;
         foreach (Skill skill in new Skill[] { Skill.Agility, Skill.Survival })
         {
-            if (sm.player.SkillInPlayerArray(skill))
+            if (sm.player.IsSkillInPlayerArray(skill))
             {
                 playerHasSkill = true;
                 break;

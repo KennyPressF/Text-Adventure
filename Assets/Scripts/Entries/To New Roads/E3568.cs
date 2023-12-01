@@ -33,7 +33,7 @@ public class E3568 : Entry
     {
         choices = new List<PlayerChoice>();
 
-        if (sm.player.SkillInPlayerArray(Skill.Agility) || sm.player.SkillInPlayerArray(Skill.Athletics))
+        if (sm.player.IsSkillInPlayerArray(Skill.Agility) || sm.player.IsSkillInPlayerArray(Skill.Athletics))
         {
             PlayerChoice c1 = new PlayerChoice(5414, responses[choices.Count]);
             choices.Add(c1);

@@ -6,7 +6,7 @@ public class Player : MonoBehaviour
 {
     public SkillSO[] skillsArray;
 
-    public bool SkillInPlayerArray(Skill? skillToCheck)
+    public bool IsSkillInPlayerArray(Skill skillToCheck)
     {
         foreach (var skill in skillsArray)
         {

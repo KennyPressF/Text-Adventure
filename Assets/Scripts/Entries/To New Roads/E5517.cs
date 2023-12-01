@@ -33,7 +33,7 @@ public class E5517 : Entry
     {
         choices = new List<PlayerChoice>();
 
-        if (sm.player.SkillInPlayerArray(Skill.Brawling) || (sm.player.SkillInPlayerArray(Skill.Dueling)))
+        if (sm.player.IsSkillInPlayerArray(Skill.Brawling) || (sm.player.IsSkillInPlayerArray(Skill.Dueling)))
         {
             PlayerChoice c1 = new PlayerChoice(1938, responses[choices.Count]);
             choices.Add(c1);

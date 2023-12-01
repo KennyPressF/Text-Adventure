@@ -34,7 +34,7 @@ public class E5223 : Entry
     {
         choices = new List<PlayerChoice>();
 
-        if (sm.player.SkillInPlayerArray(Skill.Awareness) || (sm.player.SkillInPlayerArray(Skill.Willpower)))
+        if (sm.player.IsSkillInPlayerArray(Skill.Awareness) || (sm.player.IsSkillInPlayerArray(Skill.Willpower)))
         {
             PlayerChoice c1 = new PlayerChoice(8202, responses[choices.Count]);
             choices.Add(c1);
