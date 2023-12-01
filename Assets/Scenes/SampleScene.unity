@@ -493,6 +493,64 @@ MonoBehaviour:
     out by now."'
   responses:
   - Continue...
+--- !u!1 &161260726
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 161260727}
+  - component: {fileID: 161260728}
+  m_Layer: 0
+  m_Name: E4510
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &161260727
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161260726}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &161260728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161260726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 647db1515659e1c448babe023b44f5bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 4510
+  bodyText1: 'Her gaze loses focus, and she strokes the hilt of her sword with one
+    hand. "I was knighted after saving Lord Garret Kahler''s life, and I served him
+    faithfully for years. He was the Count of Lake Harmon, a cousin to Baroness Iona.
+    Lord Kahler was a good man; a good human. He taught me to read, he taught me-"
+    Braxton trails off as she takes a deep breath. "He was a good man. But, in time,
+    he died."
+
+
+    She glances at you, then looks all around as if to find lurking
+    threats. "My sword can''t vanquish old age and illness. In any case, now I am
+    a knight-errant. Let''s talk about something else."'
+  responses:
+  - Continue...
 --- !u!1 &162189373
 GameObject:
   m_ObjectHideFlags: 0
@@ -896,6 +954,66 @@ MonoBehaviour:
   - Scout along the game trail and report back.
   - Climb over the trees and continue on the main road.
   - Clear the road of debris before continuing.
+--- !u!1 &256286613
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 256286614}
+  - component: {fileID: 256286615}
+  m_Layer: 0
+  m_Name: E5822
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &256286614
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256286613}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &256286615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256286613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7aa69b711cb3f5438495c44bd738faf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 5822
+  bodyText1: You follow the trail away from the main road, ducking under low- hanging
+    branches and hopping over muddy puddles. The trail winds back and forth, and
+    you soon lose your bearings. As you scramble over a particularly steep slope,
+    the soft earth gives way and you tumble head over heels until you come to a stop
+    at the base of a tree.
+  bodyText2: 'You crawl back to your feet and continue on, resolving to be more careful.
+    After some time, you rejoin the main road, well past the deadfall that blocked
+    it. You turn back and, being certain to mark your route this time, rejoin the
+    others.
+
+
+    You and your traveling companions make your way along the trail
+    and continue your journey along the main road.'
+  responses:
+  - Continue...
 --- !u!1 &264655049
 GameObject:
   m_ObjectHideFlags: 0
@@ -1377,6 +1495,118 @@ MonoBehaviour:
     Even though you can protect yourself, try not to worry us too much."'
   responses:
   - Continue...
+--- !u!1 &421660759
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 421660760}
+  - component: {fileID: 421660761}
+  m_Layer: 0
+  m_Name: E5481
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &421660760
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421660759}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &421660761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421660759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20f4c33d3e6072b46aa7aa6b9b419097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 5481
+  bodyText1: The bandit shifts direction to slip past your spear, but you shift with
+    him and the spear point drives home into his chest. The bandit gasps, his hook
+    and remaining hand both coming to scrabble at the haft of the spear, incidentally
+    tearing it from your grasp, then falls backward with a thud.
+  responses:
+  - Continue...
+--- !u!1 &432308795
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 432308796}
+  - component: {fileID: 432308797}
+  m_Layer: 0
+  m_Name: E5037
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &432308796
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432308795}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &432308797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432308795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd4adfc1303cd8f4a84b619d91e99fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 5037
+  bodyText1: 'You pull out an oiled leather bladder and hurl it as hard as you can
+    against the bandit''s feet. The bladder bursts, sending a black, tar-like substance
+    all over the grass and the bandit''s legs.
+
+
+    "What is this stuff?" the bandit
+    says, trying to brush the oobleck from his thigh with one hand. "I''m stuck!"
+    he says, trying to retrieve his hand. With a wail, the bandit soon finds that
+    his feet are rooted in place, and his attempts to move only send him toppling
+    over to get even more stuck.
+
+
+    You''d like to watch his travails and take
+    notes, but sadly there is no time.'
+  responses:
+  - Continue...
 --- !u!1 &442952855
 GameObject:
   m_ObjectHideFlags: 0
@@ -1679,6 +1909,64 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 511252452}
   m_CullTransparentMesh: 1
+--- !u!1 &517108957
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 517108958}
+  - component: {fileID: 517108959}
+  m_Layer: 0
+  m_Name: E4884
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &517108958
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 517108957}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &517108959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 517108957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c316689d2e1090443b86a52d83c4686b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 4884
+  bodyText1: 'You pull a glass flask from the pouch at your hip, unstopper it, and
+    light the soaked rag protruding from the end. With an underhand toss, you lob
+    the burning bottle at the bandit, who drops his mace and catches the flask one-handed
+    with a terrified look.
+
+
+    He shrieks as the scalding-hot glass of the bottle
+    burns his hand. He bobbles the concoction and reaches to catch it with his other
+    hand-the hook. The bottle breaks on the ground at his feet, sending a pillar
+    of flame up into his face. He screams, tearing at his own skin with his hooked
+    hand in an attempt to put out the fire, and falls over.'
+  responses:
+  - Continue...
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1969,6 +2257,77 @@ MonoBehaviour:
     just some harmless local custom." Mariam tosses the trinket back to you.'
   responses:
   - Continue...
+--- !u!1 &571613253
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 571613254}
+  - component: {fileID: 571613255}
+  m_Layer: 0
+  m_Name: E4389
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &571613254
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571613253}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &571613255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571613253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2348a0dff9f292f4bbab4dbb9e21e2f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 4389
+  bodyText1: 'You change the subject, electing to ask Braxton what she knows about
+    Dragonholt.
+
+
+    "I''ve never been to Dragonholt myself," says Braxton. "Lord
+    Kahler''s lands were west of here, so I never had occasion to visit. I did hear
+    that the village has a fine inn."
+
+
+    "You heard that from me!" calls Mariam.
+
+
+    "Mariam''s
+    aunt runs the place," says Braxton with a smile. "Apart from that, I think the
+    place is rather unremarkable. A small collection of houses surrounded by farms
+    and orchards." She frowns and drums her fingers on the hilt of her sword, looking
+    all around. "Well, there was that one story about a brave hero who could freeze
+    a dragon''s flames in its throat. But I think that was just a story.
+
+
+    Braxton
+    lapses into a comfortable silence for some time.'
+  responses:
+  - Ask Braxton about her family.
+  - Ask Braxton about orcs.
+  - Leave Braxton to her thoughts.
 --- !u!1 &580404242
 GameObject:
   m_ObjectHideFlags: 0
@@ -2247,6 +2606,61 @@ MonoBehaviour:
     a souvenir to remind you of your trip.'
   responses:
   - Continue...
+--- !u!1 &674661881
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 674661882}
+  - component: {fileID: 674661883}
+  m_Layer: 0
+  m_Name: E4956
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &674661882
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674661881}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &674661883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674661881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45aca6c6d65e12e4eb16b16b4e85887b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 4956
+  bodyText1: The bandit shifts direction to slip past your spear, catching the spearpoint
+    on his hook and shoving it aside. His mace slams into your shoulder, and you
+    stagger back.
+  bodyText2: Giving ground, you find an opening and drive your spear home. The blow
+    lands with such force that the spear haft breaks, leaving you holding a useless
+    hunk of wood. But your opponent is now in no condition to take advantage of the
+    development. He falls to his knees on the blood-slick grass, the other half of
+    the spear protruding from his stomach.
+  responses:
+  - Continue...
 --- !u!1 &675825336
 GameObject:
   m_ObjectHideFlags: 0
@@ -2314,6 +2728,57 @@ MonoBehaviour:
   - Catch the spear and disarm the bandit.
   - Deflect the spear and counter attack.
   - Blast the bandit with a rune.
+--- !u!1 &675929644
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 675929645}
+  - component: {fileID: 675929646}
+  m_Layer: 0
+  m_Name: E5223
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &675929645
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675929644}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &675929646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675929644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d474b64ea72399a4b935cc47fe8eb7b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 5223
+  bodyText1: You settle yourself onto a rocky perch above the path and wait for the
+    lead bandit to come into sight, arrow nocked to your bowstring. Soon, with a
+    shout, a tall dark-skinned human with a shock of white hair leaps onto the trail.
+    He rushes forward, axe in hand, and you draw back your bow.
+  responses:
+  - Continue...
 --- !u!1 &689001683
 GameObject:
   m_ObjectHideFlags: 0
@@ -2594,6 +3059,57 @@ MonoBehaviour:
   responses:
   - Ask Mariam what she plans to do in Dragonholt.
   - Ask Braxton what she plans to do in Dragonholt.
+--- !u!1 &844164247
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 844164248}
+  - component: {fileID: 844164249}
+  m_Layer: 0
+  m_Name: E5414
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &844164248
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844164247}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &844164249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844164247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 820bad587fab0494f8bbb2e74ee84394, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 5414
+  bodyText1: The bandit gives chase, but you are too quick for him. You sprint away
+    until you have enough distance to deal with the bandit at your leisure.
+  responses:
+  - Loose an arrow at your persuer.
+  - Harass the man with thrown knives.
+  - Incapacitate the bandit with runic magic.
 --- !u!1 &856181672
 GameObject:
   m_ObjectHideFlags: 0
@@ -2984,6 +3500,56 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 972604329}
   m_CullTransparentMesh: 1
+--- !u!1 &984594448
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 984594449}
+  - component: {fileID: 984594450}
+  m_Layer: 0
+  m_Name: E4641
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &984594449
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984594448}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &984594450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984594448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b19244e3bcfb6e3438ed25e8c94a3403, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 4641
+  bodyText1: Looking up at the great oak, you feel somehow captivated. You come to
+    your senses when Braxton nudges your shoulder. "Are you alright? You've been
+    staring at that tree for hours."
+  responses:
+  - Continue...
 --- !u!1 &986488746
 GameObject:
   m_ObjectHideFlags: 0
@@ -3609,6 +4175,61 @@ MonoBehaviour:
     to know."'
   responses:
   - Continue...
+--- !u!1 &1176164630
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1176164631}
+  - component: {fileID: 1176164632}
+  m_Layer: 0
+  m_Name: E4724
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1176164631
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176164630}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1176164632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176164630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e1ec6544b2e6b94c94fe8e7b40ff7a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 4724
+  bodyText1: 'With the advantage of your superior position, you are able to take
+    your time aiming and firing each arrow. You focus your attacks on the enemy archers
+    first, wounding them, and then shift your attention to the oncoming bandits,
+    who soon break off their pursuit and flee beyond reach of your arrows.
+
+
+    The
+    bandits retreat back into the forest. You have escaped.'
+  responses:
+  - Continue...
 --- !u!1 &1184832718
 GameObject:
   m_ObjectHideFlags: 0
@@ -3843,6 +4464,63 @@ MonoBehaviour:
     Mariam tosses the trinket to you with a grin.'
   responses:
   - Continue...
+--- !u!1 &1290116739
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1290116740}
+  - component: {fileID: 1290116741}
+  m_Layer: 0
+  m_Name: E4577
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1290116740
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290116739}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1290116741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290116739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bef455e17220d0948a3f5d4b1462b42b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 4577
+  bodyText1: 'The young gnome glances over her shoulder at you with a raised eyebrow.
+    "You''re starting to sound like Braxton." She twirls to face you and walks backward
+    down the road in front of you. "Despite my size, I''m quite capable of protecting
+    myself, you know."
+
+
+    Braxton chuckles warmly to herself. "I believe our new
+    friend is worried for you not because of your size but because of your nature.
+    Even though you can protect yourself, try not to worry us too much."'
+  responses:
+  - '"We should hurry along before it gets dark."'
+  - '"Do the rumors about bandits have any merit?"'
 --- !u!1 &1290138920
 GameObject:
   m_ObjectHideFlags: 0
@@ -4090,6 +4768,61 @@ MonoBehaviour:
     log. "Always looking for ingredients too!"'
   responses:
   - Continue...
+--- !u!1 &1356383694
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1356383695}
+  - component: {fileID: 1356383696}
+  m_Layer: 0
+  m_Name: E5517
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1356383695
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1356383694}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1356383696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1356383694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff6fc39b0a619d4faecb16200b2f03d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 5517
+  bodyText1: 'You leap forward and shout a challenge to the braid-wearing bandit,
+    who spins and sneers at you with crooked teeth. The bandit brandishes a knife,
+    and you begin to circle one another warily.
+
+
+    "I''ll gut you like a bloated
+    fish!" he shrieks and hurls himself at you. His attack is clumsy, more passionate
+    than skilled, and you soon see your opportunity.'
+  responses:
+  - Continue...
 --- !u!1 &1405727057
 GameObject:
   m_ObjectHideFlags: 0
@@ -4154,6 +4887,171 @@ MonoBehaviour:
     mention of the most obvious trait of gnomes: their diminutive size. You''re not
     certain if it seemed too obvious to bring up, or if she left it out as a sensitive
     subject.'
+  responses:
+  - Continue...
+--- !u!1 &1466852270
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1466852271}
+  - component: {fileID: 1466852272}
+  m_Layer: 0
+  m_Name: E4545
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1466852271
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466852270}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1466852272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466852270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b5980c4df13a9248a5756cb9b77302f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 4545
+  bodyText1: 'You grab the braided bandit from behind, twist, and pivot him around
+    your hips, sending him tumbling to the ground with an undignified yowl. As he
+    struggles to stand, you plant one foot on his back and shove, sending him sprawling
+    yet again, this time into your campfire.
+
+
+    He screams and shoots to his feet,
+    running in random loops as he attempts to beat the flames out of his hair and
+    clothing. He staggers into another bandit, sending both sprawling, and then you
+    shift your attention elsewhere.'
+  responses:
+  - Continue...
+--- !u!1 &1499658472
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1499658473}
+  - component: {fileID: 1499658474}
+  m_Layer: 0
+  m_Name: E5912
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1499658473
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499658472}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1499658474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499658472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2e3f303354891d428f3d8d915feed2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 5912
+  bodyText1: More and more bandits step into the firelight. Their armor and weapons
+    seem crude, but sufficient to the purpose. Braxton grips her sword in her right
+    hand, doing her best to keep herself and her shield between Mariam and all of
+    the bandits.
+  responses:
+  - Draw your weapon and engage the bandits.
+  - Nock an arrow and fire at the bandits.
+  - Toss a flask of explosive liquid at the bandits.
+  - Attempt to reason with the bandits.
+--- !u!1 &1530441370
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1530441371}
+  - component: {fileID: 1530441372}
+  m_Layer: 0
+  m_Name: E4384
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1530441371
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530441370}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1530441372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530441370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52f3cce40f9fe74479c66cbc30f8919d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 4384
+  bodyText1: The bandit's thrust is harder than you expected. You clutch at the spear
+    but only manage to redirect what would have been a lethal impact into a wounding
+    jab to your shoulder.
+  bodyText2: Your hands slick with your own blood, you manage to wrest the spear
+    away from the bandit, setting him off balance. You follow through with a brutal
+    swing, sending the butt of the spear whipping into the bandit's head. He goes
+    limp and collapses in a heap on the grass.
   responses:
   - Continue...
 --- !u!1 &1539031369
@@ -4290,6 +5188,65 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1539031369}
   m_CullTransparentMesh: 1
+--- !u!1 &1570739724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1570739725}
+  - component: {fileID: 1570739726}
+  m_Layer: 0
+  m_Name: E4585
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1570739725
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570739724}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1570739726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570739724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0f495e7e0581104589e36b085b86b20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 4585
+  bodyText1: You grab up a burning brand from the nearby campfire, but before you
+    can use it for anything, the bandit slashes at you with his knife, cutting open
+    a ragged tear across your chest.
+  bodyText2: 'You swing your burning branch over your head and thrust it at the bandit,
+    sending him leaping backward with a squawk. He jabs out with his knife, preventing
+    you from following up and finishing him off.
+
+
+    Behind him, you see Braxton
+    slam her shield solidly into her assailant, then spin and bring her sword down
+    on the braided bandit. He shrieks, then falls, and Braxton turns back to the
+    axe-wielding brute without a word.'
+  responses:
+  - Continue...
 --- !u!1 &1586646220
 GameObject:
   m_ObjectHideFlags: 0
@@ -4438,6 +5395,63 @@ MonoBehaviour:
   - Watch for further movement or signs of danger.
   - Arm yourself and take a closer look.
   - Wake your fellow travelling companions.
+--- !u!1 &1641196137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1641196138}
+  - component: {fileID: 1641196139}
+  m_Layer: 0
+  m_Name: E5280
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1641196138
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641196137}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1641196139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641196137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0271700ed0c800b40a150c9054951414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 5280
+  bodyText1: 'Using the darkness to your advantage, you throw your voice, making
+    it sound as if soldiers are approaching through the trees.
+
+    "The village
+    guards?" yells one bandit. "Here? Leg it, lads!"
+
+
+    "It''s a trick, you credulous
+    clods!" bellows the bandit leader, but the panic that ripples through his minions
+    is enough for you and your companions to slip away. "After them!"'
+  responses:
+  - Continue...
 --- !u!1 &1671753979
 GameObject:
   m_ObjectHideFlags: 0
@@ -4664,6 +5678,127 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1690582615}
   m_CullTransparentMesh: 1
+--- !u!1 &1696844985
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1696844986}
+  - component: {fileID: 1696844987}
+  m_Layer: 0
+  m_Name: E5129
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1696844986
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696844985}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1696844987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696844985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a434418c0190d3b438714a7b3c3ea30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 5129
+  bodyText1: 'With the bandits preoccupied by your efforts back at the gulch, you
+    are able to gain a considerable lead on them. The rocky terrain continues to
+    rise up around you, the trees of Eventide Forest becoming smaller and scrappier
+    as you go.
+
+
+    Soon you come to a sheer cliff face, only a few scraggly trees
+    clinging to the rocks rising above you. Sunlight spills across the sky above
+    the cliff, a promise of freedom and safety. You could climb up to the top, but
+    it would be a challenge.
+
+
+    The path continues to the left a fair distance,
+    then becomes a tight switchback crawling up to the top of the rise. It would
+    be a safer route to the top but slower than climbing directly.'
+  responses:
+  - Climb the cliff face.
+  - Run for the switchback path.
+--- !u!1 &1700770637
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1700770638}
+  - component: {fileID: 1700770639}
+  m_Layer: 0
+  m_Name: E4945
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1700770638
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700770637}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1700770639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700770637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02caeea129ca76e45b1c7373d08e949e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 4945
+  bodyText1: "Braxton smiles gently, nodding her head in Mariam's direction. \"I
+    will continue to protect our friend Mariam for as long as she requires my services.
+    As you may have noticed, looking after her does not leave me much time for anything
+    else.\"\n\n\"I resemble that remark!\" calls Mariam.\n\n\u201CAfter that, I am
+    not certain. I was not certain what to do with myself before meeting Mariam,
+    either. I suppose I will travel to a larger city and try to find employment.\""
+  responses:
+  - Ask Braxton about her past adventures.
+  - Ask Braxton how she met Mariam.
+  - Tell Braxton about your past adventures.
+  - Ask Braxton which lord she served.
+  - Ask Braxton about her military training.
+  - Show Braxton how to foil sleight of hand.
 --- !u!1 &1701559301
 GameObject:
   m_ObjectHideFlags: 0
@@ -5408,6 +6543,121 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1869366323}
   m_CullTransparentMesh: 1
+--- !u!1 &1881943712
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1881943713}
+  - component: {fileID: 1881943714}
+  m_Layer: 0
+  m_Name: E5705
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1881943713
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881943712}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1881943714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881943712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ede2949491d023409f54f8168cc8a70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 0
+  bodyText1: You swing your weapon to deflect the spear, but only manage to divert
+    it from a killing blow to a piercing jab into your shoulder. The spearpoint comes
+    out black in the firelight, covered in your blood, and pain flares all along
+    your arm.
+  bodyText2: Ignoring the pain, you lunge forward and catch the bandit off- guard.
+    He attempts to block with his spear, but you knock it aside and then follow up
+    with a thrust that leaves the bandit bleeding on the grass. You step back, taking
+    a moment to assess the situation.
+  responses:
+  - Continue...
+--- !u!1 &1895576672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1895576673}
+  - component: {fileID: 1895576674}
+  m_Layer: 0
+  m_Name: E4734
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1895576673
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895576672}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1895576674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895576672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 573613fa4461b8f48ab2dd62badf74ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 4734
+  bodyText1: 'You attempt to reason with the bandits and prevent bloodshed.
+
+
+    "Well,
+    it''s very simple," says a bandit you take for their leader. He steps into the
+    light of your campfire, revealing a scar that runs down the side of his face.
+    "We''re traditionalists, you see. And the tradition is this: your money or your
+    life."
+
+
+    Before you can make any sort of counteroffer, Mariam''s voice cuts
+    the negotiations short. "Go sniff a goat!" she shouts. The bandit leader roars,
+    and his minions rush to the attack. So much for reason.'
+  responses:
+  - Continue...
 --- !u!1 &1971296912
 GameObject:
   m_ObjectHideFlags: 0
@@ -5536,6 +6786,70 @@ MonoBehaviour:
   - Return fire with your bow.
   - Smash a vial of alchemical fire on the cliff face.
   - Blast the cliff face with runic magic.
+--- !u!1 &2055129082
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2055129083}
+  - component: {fileID: 2055129084}
+  m_Layer: 0
+  m_Name: E4897
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2055129083
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055129082}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2055129084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055129082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f38eef17f0577e4384a4061c41d93d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 4897
+  bodyText1: '"Oh, I do what I can to avoid adventure," says Braxton with a gentle
+    smile. "It''s safer that way."
+
+
+    After a few more questions, she sighs. "Very
+    well. I shall tell you about the day I received my knighthood. I was quite young,
+    and very foolish, and I came across a battle between Lord Garret Kahler''s knights
+    and a large pack of beastmen. I leapt into the battle, hurling my spears at the
+    creatures. I soon ran out of spears, but there was no shortage of beastmen, so
+    I took up the sword of one of the fallen knights and continued to fight."
+
+
+    Her
+    fingers brush the hilt of her sword as she speaks. "When the battle was over,
+    only Lord Kahler and I were still standing. He knighted me on the spot." She
+    turns away, looking at the forest floor. "Is that the sort of thing you wanted
+    to hear about?"'
+  responses:
+  - Continue...
 --- !u!1 &2056416049
 GameObject:
   m_ObjectHideFlags: 0
@@ -5669,8 +6983,86 @@ Transform:
   - {fileID: 60139136}
   - {fileID: 675825337}
   - {fileID: 472685591}
+  - {fileID: 1530441371}
+  - {fileID: 571613254}
+  - {fileID: 161260727}
+  - {fileID: 1466852271}
+  - {fileID: 1290116740}
+  - {fileID: 1570739725}
+  - {fileID: 984594449}
+  - {fileID: 1176164631}
+  - {fileID: 1895576673}
+  - {fileID: 517108958}
+  - {fileID: 2055129083}
+  - {fileID: 1700770638}
+  - {fileID: 674661882}
+  - {fileID: 432308796}
+  - {fileID: 1696844986}
+  - {fileID: 675929645}
+  - {fileID: 1641196138}
+  - {fileID: 844164248}
+  - {fileID: 421660760}
+  - {fileID: 1356383695}
+  - {fileID: 1881943713}
+  - {fileID: 256286614}
+  - {fileID: 1499658473}
+  - {fileID: 2091565703}
   m_Father: {fileID: 689001686}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2091565702
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2091565703}
+  - component: {fileID: 2091565704}
+  m_Layer: 0
+  m_Name: E5967
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2091565703
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2091565702}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2058093495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2091565704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2091565702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56e240b05d1df0e4c8fb7b50c55c8389, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryID: 5967
+  bodyText1: You rush toward the orc bandit, shouting your battle cry. She raises
+    a bow and looses an arrow. You feel it streak along the side of your head like
+    a tongue of fire.
+  bodyText2: As the orc draws another arrow from a quiver at her hip you tackle her
+    blindly, throwing your shoulder into her chest and sending her sprawling. As
+    she struggles back to her feet you grab her bow from where it fell on the ground,
+    then bring it down on her head, breaking the bow and leaving her unconscious.
+  responses:
+  - Continue...
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
