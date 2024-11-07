@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -33,7 +32,7 @@ public class E8310 : Entry
     {
         choices = new List<PlayerChoice>();
 
-        if(sm.player.IsSkillInPlayerArray(Skill.Agility) || sm.player.IsSkillInPlayerArray(Skill.Empathy))
+        if (sm.player.IsSkillInPlayerArray(Skill.Agility) || sm.player.IsSkillInPlayerArray(Skill.Empathy))
         {
             PlayerChoice c1 = new PlayerChoice(5481, responses[choices.Count]);
             choices.Add(c1);

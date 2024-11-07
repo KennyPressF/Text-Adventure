@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -28,8 +27,8 @@ public class E3962 : Entry
 
         sm.UpdateMainText(bodyText1);
         sm.UpdateTime(2);
-        
-        if(!sm.player.IsSkillInPlayerArray(Skill.Endurance))
+
+        if (!sm.player.IsSkillInPlayerArray(Skill.Endurance))
         {
             sm.UpdateStamina(3, false);
         }

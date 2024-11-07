@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -33,7 +32,7 @@ public class E9608 : Entry
     {
         choices = new List<PlayerChoice>();
 
-        if(sm.spManager.IsStoryPointMarked("H3"))
+        if (sm.spManager.IsStoryPointMarked("H3"))
         {
             PlayerChoice c1 = new PlayerChoice(6577, responses[choices.Count]);
             choices.Add(c1);

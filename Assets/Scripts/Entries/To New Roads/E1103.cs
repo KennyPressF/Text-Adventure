@@ -1,6 +1,4 @@
-using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 
 public class E1103 : Entry
@@ -29,7 +27,7 @@ public class E1103 : Entry
 
         sm.UpdateMainText(bodyText1);
 
-        if(sm.spManager.IsStoryPointMarked("N3"))
+        if (sm.spManager.IsStoryPointMarked("N3"))
         {
             sm.spManager.MarkStoryPoint("H1");
             sm.spManager.MarkStoryPoint("K6");
@@ -39,7 +37,7 @@ public class E1103 : Entry
             sm.spManager.MarkStoryPoint("O3");
             sm.spManager.MarkStoryPoint("W3");
         }
-        
+
         sm.UpdateMainText(bodyText2);
 
         PopulateChoices(sm);

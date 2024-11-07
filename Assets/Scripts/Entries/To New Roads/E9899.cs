@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -35,7 +34,7 @@ public class E9899 : Entry
     {
         choices = new List<PlayerChoice>();
 
-        if(sm.timeKeeper.TimePassed >= 2)
+        if (sm.timeKeeper.TimePassed >= 2)
         {
             PlayerChoice c1 = new PlayerChoice(4389, responses[choices.Count]);
             choices.Add(c1);

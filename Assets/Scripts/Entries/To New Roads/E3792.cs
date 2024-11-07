@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -25,7 +24,7 @@ public class E3792 : Entry
 
         sm.UpdateMainText(bodyText1);
 
-        if(sm.spManager.IsStoryPointMarked("N3"))
+        if (sm.spManager.IsStoryPointMarked("N3"))
         {
             sm.spManager.MarkStoryPoint("K6");
             sm.spManager.MarkStoryPoint("M3");

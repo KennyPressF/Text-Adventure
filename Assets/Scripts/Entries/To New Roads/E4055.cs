@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -30,9 +29,9 @@ public class E4055 : Entry
         base.OnEntryLoad(sm);
 
         sm.UpdateMainText(bodyText1);
-        if(!sm.player.IsSkillInPlayerArray(Skill.Athletics)) { sm.UpdateStamina(2, false); }
+        if (!sm.player.IsSkillInPlayerArray(Skill.Athletics)) { sm.UpdateStamina(2, false); }
         sm.UpdateMainText(bodyText2);
-        if(!sm.player.IsSkillInPlayerArray(Skill.Agility)) { sm.UpdateStamina(3, false); }
+        if (!sm.player.IsSkillInPlayerArray(Skill.Agility)) { sm.UpdateStamina(3, false); }
         sm.UpdateMainText(bodyText3);
 
         PopulateChoices(sm);

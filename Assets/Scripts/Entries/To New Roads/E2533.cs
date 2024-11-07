@@ -1,6 +1,4 @@
-using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class E2533 : Entry
@@ -36,9 +34,9 @@ public class E2533 : Entry
             {
                 playerHasSkill = true;
                 break;
-            }    
+            }
         }
-        if(playerHasSkill == false) { sm.UpdateStamina(2, false); }
+        if (playerHasSkill == false) { sm.UpdateStamina(2, false); }
 
         sm.UpdateMainText(bodyText2);
 

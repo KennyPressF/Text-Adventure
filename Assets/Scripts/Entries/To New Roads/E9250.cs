@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -33,7 +32,7 @@ public class E9250 : Entry
     {
         choices = new List<PlayerChoice>();
 
-        if(sm.player.IsSkillInPlayerArray(Skill.Stealth))
+        if (sm.player.IsSkillInPlayerArray(Skill.Stealth))
         {
             PlayerChoice c1 = new PlayerChoice(4545, responses[choices.Count]);
             choices.Add(c1);

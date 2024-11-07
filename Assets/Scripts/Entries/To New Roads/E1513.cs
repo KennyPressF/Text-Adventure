@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -33,7 +32,7 @@ public class E1513 : Entry
     {
         choices = new List<PlayerChoice>();
 
-        if(sm.player.IsSkillInPlayerArray(Skill.Brawling) || sm.player.IsSkillInPlayerArray(Skill.Willpower))
+        if (sm.player.IsSkillInPlayerArray(Skill.Brawling) || sm.player.IsSkillInPlayerArray(Skill.Willpower))
         {
             PlayerChoice c1 = new PlayerChoice(8563, responses[choices.Count]);
             choices.Add(c1);
