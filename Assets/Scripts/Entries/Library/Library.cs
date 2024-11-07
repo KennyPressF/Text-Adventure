@@ -1,20 +1,5 @@
 using System;
-using System.IO;
-using System.Linq;
-using System.Collections;
-using System.Collections.Generic;
-
 using UnityEngine;
-using UnityEngine.SceneManagement;
-using UnityEngine.AI;
-
-#if UNITY_EDITOR
-using UnityEditor;
-using UnityEditorInternal;
-#endif
-
-using Object = UnityEngine.Object;
-using Random = UnityEngine.Random;
 
 public class Library : MonoBehaviour
 {
@@ -48,7 +33,7 @@ public class Library : MonoBehaviour
 
                 foreach (Transform t in toNewRoadsCollection)
                 {
-                    var e = t.GetComponent<Entry>();
+                    Entry e = t.GetComponent<Entry>();
                     LibDict_ToNewRoads.Add(e.EntryID, e);
                 }
                 break;

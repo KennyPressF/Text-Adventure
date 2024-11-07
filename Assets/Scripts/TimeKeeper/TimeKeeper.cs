@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class TimeKeeper : MonoBehaviour
@@ -29,6 +27,6 @@ public class TimeKeeper : MonoBehaviour
     {
         timePassed += time;
 
-        if(timePassed > maxTimeForDay) { timePassed = maxTimeForDay; }
+        if (timePassed > maxTimeForDay) { timePassed = maxTimeForDay; }
     }
 }

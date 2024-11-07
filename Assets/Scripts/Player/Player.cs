@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -8,7 +6,7 @@ public class Player : MonoBehaviour
 
     public bool IsSkillInPlayerArray(Skill skillToCheck)
     {
-        foreach (var skill in skillsArray)
+        foreach (SkillSO skill in skillsArray)
         {
             if (skill.skill == skillToCheck)
             {

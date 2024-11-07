@@ -1,11 +1,7 @@
-using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using TMPro;
+using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.EventSystems;
-using Unity.VisualScripting;
-using static UnityEngine.EventSystems.EventTrigger;
 
 public class StoryManager : MonoBehaviour
 {
@@ -124,7 +120,7 @@ public class StoryManager : MonoBehaviour
             buttonArray[i].gameObject.SetActive(true);
 
             //Set the text for each button, including required skill if there is one
-            var buttonText = buttonArray[i].gameObject.GetComponentInChildren<TextMeshProUGUI>();
+            TextMeshProUGUI buttonText = buttonArray[i].gameObject.GetComponentInChildren<TextMeshProUGUI>();
             buttonText.text = availableChoices[i].Text;
             if (availableChoices[i].SkillsToCheck != null)
             {
@@ -139,7 +135,7 @@ public class StoryManager : MonoBehaviour
                 //Check all the reuired skills and set the button to enabled if the player has at least one of them
                 if (availableChoices[i].SkillsToCheck.Length > 0)
                 {
-                    foreach (var skill in availableChoices[i].SkillsToCheck)
+                    foreach (Skill skill in availableChoices[i].SkillsToCheck)
                     {
                         if (player.IsSkillInPlayerArray(skill))
                         {

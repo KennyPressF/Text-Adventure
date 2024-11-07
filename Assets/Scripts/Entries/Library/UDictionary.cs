@@ -1,20 +1,14 @@
 using System;
-using System.IO;
-using System.Linq;
 using System.Collections;
 using System.Collections.Generic;
 
 using UnityEngine;
-using UnityEngine.SceneManagement;
-using UnityEngine.AI;
 
 #if UNITY_EDITOR
 using UnityEditor;
 using UnityEditorInternal;
 #endif
 
-using Object = UnityEngine.Object;
-using Random = UnityEngine.Random;
 
 [Serializable]
 public class UDictionary
@@ -96,7 +90,7 @@ public class UDictionary
         {
             Init(property);
 
-            var height = TopPadding + BottomPadding;
+            float height = TopPadding + BottomPadding;
 
             if (IsAligned)
                 height += IsExpanded ? list.GetHeight() : list.headerHeight;
@@ -141,8 +135,8 @@ public class UDictionary
 
         void DrawAlignmentWarning(ref Rect rect)
         {
-            var width = 80f;
-            var spacing = 5f;
+            float width = 80f;
+            float spacing = 5f;
 
             rect.width -= width;
 
@@ -155,14 +149,14 @@ public class UDictionary
             {
                 if (keys.arraySize > values.arraySize)
                 {
-                    var difference = keys.arraySize - values.arraySize;
+                    int difference = keys.arraySize - values.arraySize;
 
                     for (int i = 0; i < difference; i++)
                         keys.DeleteArrayElementAtIndex(keys.arraySize - 1);
                 }
                 else if (keys.arraySize < values.arraySize)
                 {
-                    var difference = values.arraySize - keys.arraySize;
+                    int difference = values.arraySize - keys.arraySize;
 
                     for (int i = 0; i < difference; i++)
                         values.DeleteArrayElementAtIndex(values.arraySize - 1);
@@ -194,10 +188,10 @@ public class UDictionary
             SerializedProperty key = keys.GetArrayElementAtIndex(index);
             SerializedProperty value = values.GetArrayElementAtIndex(index);
 
-            var kHeight = GetChildernSingleHeight(key);
-            var vHeight = GetChildernSingleHeight(value);
+            float kHeight = GetChildernSingleHeight(key);
+            float vHeight = GetChildernSingleHeight(value);
 
-            var max = Math.Max(kHeight, vHeight);
+            float max = Math.Max(kHeight, vHeight);
 
             if (max < SingleLineHeight) max = SingleLineHeight;
 
@@ -210,7 +204,7 @@ public class UDictionary
             rect.height -= ElementHeightPadding;
             rect.y += ElementHeightPadding / 2;
 
-            var areas = Split(rect, KeySplit, ValueSplit);
+            Rect[] areas = Split(rect, KeySplit, ValueSplit);
 
             DrawKey(areas[0], index);
             DrawValue(areas[1], index);
@@ -218,7 +212,7 @@ public class UDictionary
 
         void DrawKey(Rect rect, int index)
         {
-            var property = keys.GetArrayElementAtIndex(index);
+            SerializedProperty property = keys.GetArrayElementAtIndex(index);
 
             rect.x += ElementSpacing / 2f;
             rect.width -= ElementSpacing;
@@ -228,7 +222,7 @@ public class UDictionary
 
         void DrawValue(Rect rect, int index)
         {
-            var property = values.GetArrayElementAtIndex(index);
+            SerializedProperty property = values.GetArrayElementAtIndex(index);
 
             rect.x += ElementSpacing / 2f;
             rect.width -= ElementSpacing;
@@ -249,7 +243,7 @@ public class UDictionary
                 rect.x += ElementSpacing / 2f;
                 rect.width -= ElementSpacing;
 
-                foreach (var child in IterateChildern(property))
+                foreach (SerializedProperty child in IterateChildern(property))
                 {
                     EditorGUI.PropertyField(rect, child, false);
 
@@ -281,9 +275,9 @@ public class UDictionary
         //Static Utility
         static Rect[] Split(Rect source, params float[] cuts)
         {
-            var rects = new Rect[cuts.Length];
+            Rect[] rects = new Rect[cuts.Length];
 
-            var x = 0f;
+            float x = 0f;
 
             for (int i = 0; i < cuts.Length; i++)
             {
@@ -311,7 +305,7 @@ public class UDictionary
 
         static IEnumerable<SerializedProperty> IterateChildern(SerializedProperty property)
         {
-            var path = property.propertyPath;
+            string path = property.propertyPath;
 
             property.Next(true);
 
@@ -328,9 +322,9 @@ public class UDictionary
         {
             if (IsInline(property)) return SingleLineHeight;
 
-            var height = 0f;
+            float height = 0f;
 
-            foreach (var child in IterateChildern(property))
+            foreach (SerializedProperty child in IterateChildern(property))
                 height += SingleLineHeight + 2f;
 
             return height;
@@ -386,7 +380,7 @@ public class UDictionary<TKey, TValue> : UDictionary, IDictionary<TKey, TValue>
         get => Dictionary[key];
         set
         {
-            var index = keys.IndexOf(key);
+            int index = keys.IndexOf(key);
 
             if (index < 0)
             {
@@ -416,7 +410,7 @@ public class UDictionary<TKey, TValue> : UDictionary, IDictionary<TKey, TValue>
 
     public bool Remove(TKey key)
     {
-        var index = keys.IndexOf(key);
+        int index = keys.IndexOf(key);
 
         if (index < 0) return false;
 
