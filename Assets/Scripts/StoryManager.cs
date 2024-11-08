@@ -44,7 +44,7 @@ public class StoryManager : MonoBehaviour
 
         mainText.text = "";
 
-        LoadEntry(8549); // SET STARTING ENTRY HERE FOR DEV PURPOSES
+        LoadEntry(1096); // SET STARTING ENTRY HERE FOR DEV PURPOSES
     }
 
     private void InitialiseButtonArray()
@@ -148,6 +148,10 @@ public class StoryManager : MonoBehaviour
                         }
                     }
                 }
+            }
+            else
+            {
+                buttonArray[i].interactable = true;
             }
 
             //Add OnClick events to buttons
