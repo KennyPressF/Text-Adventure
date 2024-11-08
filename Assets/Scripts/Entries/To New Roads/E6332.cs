@@ -16,8 +16,9 @@ public class E6332 : Entry
     [TextArea(2, 20)]
     [SerializeField] string[] responses;
 
-    public void Awake()
+    protected override void Awake()
     {
+        base.Awake();
         base.EntryID = entryID;
     }
 

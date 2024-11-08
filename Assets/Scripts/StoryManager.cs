@@ -15,7 +15,7 @@ public class StoryManager : MonoBehaviour
     public Player player;
     PlayerInventory inventory;
     Library mainLibrary;
-    Library.LibraryDict library;
+    Library.LibraryDict currentLibrary;
     public StoryPointManager spManager;
     public TimeKeeper timeKeeper;
 
@@ -36,7 +36,7 @@ public class StoryManager : MonoBehaviour
     {
         InitialiseButtonArray();
 
-        library = mainLibrary.LibDict_ToNewRoads;
+        currentLibrary = mainLibrary.LibDict_ToNewRoads;
         mainLibrary.PopulateLibrary(AdventureBook.ToNewRoads);
 
         spManager.InitializeStoryPoints();
@@ -44,7 +44,7 @@ public class StoryManager : MonoBehaviour
 
         mainText.text = "";
 
-        LoadEntry(8549);
+        LoadEntry(8549); // SET STARTING ENTRY HERE FOR DEV PURPOSES
     }
 
     private void InitialiseButtonArray()
@@ -66,7 +66,7 @@ public class StoryManager : MonoBehaviour
             button.gameObject.SetActive(false);
         }
 
-        currentEntry = library[idToLoad];
+        currentEntry = currentLibrary[idToLoad];
 
         currentEntry.OnEntryLoad(this);
     }
@@ -132,7 +132,7 @@ public class StoryManager : MonoBehaviour
                 }
                 buttonText.text += ")";
 
-                //Check all the reuired skills and set the button to enabled if the player has at least one of them
+                //Check all the required skills and set the button to enabled if the player has at least one of them
                 if (availableChoices[i].SkillsToCheck.Length > 0)
                 {
                     foreach (Skill skill in availableChoices[i].SkillsToCheck)

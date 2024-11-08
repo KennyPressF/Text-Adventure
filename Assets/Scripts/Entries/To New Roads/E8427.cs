@@ -13,8 +13,9 @@ public class E8427 : Entry
     [TextArea(2, 20)]
     [SerializeField] string[] responses;
 
-    public void Awake()
+    protected override void Awake()
     {
+        base.Awake();
         base.EntryID = entryID;
     }
 
@@ -32,7 +33,7 @@ public class E8427 : Entry
     {
         choices = new List<PlayerChoice>();
 
-        if(sm.player.IsSkillInPlayerArray(Skill.Agility) || sm.player.IsSkillInPlayerArray(Skill.Athletics))
+        if (sm.player.IsSkillInPlayerArray(Skill.Agility) || sm.player.IsSkillInPlayerArray(Skill.Athletics))
         {
             PlayerChoice c1 = new PlayerChoice(9608, responses[choices.Count]);
             choices.Add(c1);

@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class TimeKeeper : MonoBehaviour
 {
-    public TimeSheetSO currentTimeSheet;
+    public TimeSheetSO currentTimeSheetSO;
     [SerializeField] TimeSheetSO[] timeSheetsArray;
 
     private int currentDay;
@@ -16,10 +16,10 @@ public class TimeKeeper : MonoBehaviour
 
     public void SetNewTimeSheet()
     {
-        currentTimeSheet = timeSheetsArray[0];
+        currentTimeSheetSO = timeSheetsArray[0];
 
-        currentDay = currentTimeSheet.Day;
-        timeArray = currentTimeSheet.TimeArray;
+        currentDay = currentTimeSheetSO.Day;
+        timeArray = currentTimeSheetSO.TimeArray;
         maxTimeForDay = timeArray.Length;
     }
 

@@ -7,6 +7,13 @@ public class Entry : MonoBehaviour
 
     public List<PlayerChoice> LinkedChoices { get; set; }
 
+    protected StoryManager StoryManager { get; private set; }
+
+    protected virtual void Awake()
+    {
+        StoryManager = FindObjectOfType<StoryManager>();
+    }
+
     public virtual void OnEntryLoad(StoryManager sm)
     {
         sm.entryIDText.text = EntryID.ToString();
